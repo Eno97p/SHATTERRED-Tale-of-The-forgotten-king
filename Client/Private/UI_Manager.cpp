@@ -312,7 +312,7 @@ _bool CUI_Manager::Get_isUIOpen()
 	else
 		return false;
 
-	//Test
+	
 }
 
 HRESULT CUI_Manager::Initialize()
