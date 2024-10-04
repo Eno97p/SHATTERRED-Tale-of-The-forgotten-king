@@ -12,7 +12,7 @@
 
 
 [ Exe 실행 시]
-- [Exe.zip](https://drive.google.com/file/d/1hB2j3B9z4sMs5dRDI3o8NjZ9x59CzuP7/view?usp=sharing)
+- [Exe.zip Download](https://drive.google.com/file/d/1hB2j3B9z4sMs5dRDI3o8NjZ9x59CzuP7/view?usp=sharing)
   (Default - Client - Bin - Client.exe)
 
 
@@ -20,13 +20,13 @@
 
 
 [ 직접 빌드 시 ]
-- [Client Resources 다운로드 경로](https://drive.google.com/file/d/1d42rCl3ieTjm9N6rsTG2J5VGWanysH-U/view?usp=sharing) 
+- [Client Resources Download](https://drive.google.com/file/d/1d42rCl3ieTjm9N6rsTG2J5VGWanysH-U/view?usp=sharing) 
   (해당 zip파일 압축해제 후 나온 Resources폴더 Client - Bin 폴더안에 넣기)
-- [AnimTool Resources 다운로드 경로](https://drive.google.com/file/d/1_n29Pc9c1pd7TSfGzdKiBO-MCxu0dhuC/view?usp=sharing)
+- [AnimTool Resources Download](https://drive.google.com/file/d/1_n29Pc9c1pd7TSfGzdKiBO-MCxu0dhuC/view?usp=sharing)
   (해당 zip파일 압축해제 후 나온 Resources폴더 AnimTool - Bin 폴더안에 넣기)
-- [MapTool Resources 다운로드 경로](https://drive.google.com/file/d/1zMFyjBUy2DqrBYLBQeOLi-wIHGsLC4tK/view?usp=sharing)
+- [MapTool Resources Download](https://drive.google.com/file/d/1zMFyjBUy2DqrBYLBQeOLi-wIHGsLC4tK/view?usp=sharing)
   (해당 zip파일 압축해제 후 나온 Resources폴더 MYMapTool - Bin 폴더안에 넣기)
-- [Eninge Resources 다운로드 경로](https://drive.google.com/file/d/19Pt1_ZZeDUxfWEk3EdgQbWU1jpXkhg5k/view?usp=sharing)
+- [Eninge Resources Download](https://drive.google.com/file/d/19Pt1_ZZeDUxfWEk3EdgQbWU1jpXkhg5k/view?usp=sharing)
   (해당 zip파일 압축해제 후 나온 Textures폴더 Engine - Bin 폴더안에 넣기)
-- [DLL 다운로드 경로](https://drive.google.com/file/d/12F-bKFRm-V5EKHAbsRtfYnpnJxlRCBMH/view?usp=sharing)
+- [DLL Download](https://drive.google.com/file/d/12F-bKFRm-V5EKHAbsRtfYnpnJxlRCBMH/view?usp=sharing)
   (해당 zip파일 압축해제 후 나온 DLL폴더 Engine 폴더안에 넣기)
