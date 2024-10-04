@@ -14,6 +14,10 @@ Shatterred : Tale of The forgotten king  모작
 - 지원되는 GPU 아키텍처: 	Compute Capability 5.2 이상
 
 
+[ Exe 실행 시]
+- https://drive.google.com/file/d/1hB2j3B9z4sMs5dRDI3o8NjZ9x59CzuP7/view?usp=sharing
+  (Default - Client - Bin - Client.exe)
+
 
 
 
