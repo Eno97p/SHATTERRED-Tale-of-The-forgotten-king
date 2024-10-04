@@ -1,0 +1,43 @@
+#pragma once
+
+#include "Bounding.h"
+
+BEGIN(Engine)
+
+class CBounding_Sphere final : public CBounding
+{
+public:
+	typedef struct BOUNDING_SPHERE_DESC : public CBounding::BOUNDING_DESC
+	{
+		_float		fRadius;
+	}BOUNDING_SPHERE_DESC;
+private:
+	CBounding_Sphere();
+	virtual ~CBounding_Sphere() = default;
+
+public:
+	virtual void* Get_Desc() override { 
+		return m_pDesc;
+	}
+
+public:
+	HRESULT Initialize(const void* pArg);
+	virtual void Tick(_fmatrix WorldMatrix) override;
+	virtual _bool Intersect(CCollider::TYPE eTargetType, CBounding* pTargetBounding) override;
+	virtual _bool IntersectRay(_vector vRayOrigin, _vector vRayDirection, _float fDistance) override;
+	virtual _float3 Get_Center();
+#ifdef _DEBUG
+public:
+	virtual HRESULT Render(PrimitiveBatch<VertexPositionColor>* pBatch, _fvector vColor) override;
+#endif
+
+private:
+	BoundingSphere*			m_pOriginalDesc = { nullptr };
+	BoundingSphere*			m_pDesc = { nullptr };
+
+public:
+	static CBounding_Sphere* Create(const void* pArg);
+	virtual void Free() override;
+};
+
+END

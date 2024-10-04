@@ -1,0 +1,2983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{b8bca424-35b4-43ec-8635-e62e80472507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{8b85b4d8-c4ab-4401-96d1-ed34d20c6803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{138242b2-210b-4f34-9eb9-275124a4094b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{01a9bdb9-d9a2-4e3f-9b3c-0c632c312f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading">
+      <UniqueIdentifier>{c7b3dfd9-bd5f-44c2-98e8-6085c55c01e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.Logo">
+      <UniqueIdentifier>{11331aa0-1a11-4059-855d-11e2d11cc393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.GamePlay">
+      <UniqueIdentifier>{28055c07-1ad6-4ca6-a135-140a4e2964e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading\Loader">
+      <UniqueIdentifier>{ca0383b7-34cd-40b6-9c51-87a7545db2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{b7203fcb-fbf5-4f2c-9aee-e21ba549be68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.BackGround">
+      <UniqueIdentifier>{118212d2-88e2-4e51-9900-8d7afeabd6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{958f698f-dd90-41d7-bb5c-9f21a8916356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain">
+      <UniqueIdentifier>{ed2dbd76-33a5-4980-9df3-580a42d076cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject">
+      <UniqueIdentifier>{8cfc0980-be7a-4c23-9895-bdd82c98ac51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player">
+      <UniqueIdentifier>{46f3f2d0-325f-4eab-a0ea-499a325474b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject">
+      <UniqueIdentifier>{fa30e955-d1ec-4c1d-991c-d6fb0c369e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Body">
+      <UniqueIdentifier>{8339b011-2ac1-4edd-ab49-abf90da5da87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Weapon">
+      <UniqueIdentifier>{548d021b-8e72-48f7-8b6b-8c8261ac5aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster">
+      <UniqueIdentifier>{40ee4771-469c-4e3f-8fbb-f5b0e0a5f6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Sky">
+      <UniqueIdentifier>{08f25fe6-eff1-4f71-a8cc-ef39050fe3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\05.ForkLift">
+      <UniqueIdentifier>{3bea713e-00d7-4331-bcc0-45ea1114647c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect">
+      <UniqueIdentifier>{26e4b713-a230-47b7-b9c7-a57809545769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\Particle">
+      <UniqueIdentifier>{76934740-a5db-4428-9475-8f245620e6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\Distortion">
+      <UniqueIdentifier>{74bfd6ce-319e-4717-a724-8b3052d85183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Clone">
+      <UniqueIdentifier>{31ea0772-9f38-415f-b060-9af8c9b9b236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element">
+      <UniqueIdentifier>{69ece9b8-2d30-4cff-b14e-3b2247dfafe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\WhisperSword_Anim">
+      <UniqueIdentifier>{f922cadd-30b2-4116-a6a7-1e3087cba0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\DurgaSword">
+      <UniqueIdentifier>{ceba17d8-821f-42f1-8f87-966d9b4c3443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\PretorianSword">
+      <UniqueIdentifier>{9d74c2ab-cbee-4d3d-af3b-2190ddc75d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\RadamantheSword">
+      <UniqueIdentifier>{3848d018-7672-4885-a10d-195f3ce74e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999.Client_IMGUI">
+      <UniqueIdentifier>{fec259c9-9fe1-4221-8cdd-68cf62ca1ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999.Client_IMGUI\ImGuiMgr">
+      <UniqueIdentifier>{a2277019-c6e3-464f-bd3d-e30181f1e747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI">
+      <UniqueIdentifier>{25309946-d6b1-412e-bcd9-43225af486d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UI_Group">
+      <UniqueIdentifier>{eadd0335-9f5a-437d-801f-683ef4a968d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Mgr">
+      <UniqueIdentifier>{36abc1db-9f9b-44e0-ba91-f8aa5302ea4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD">
+      <UniqueIdentifier>{ef2335d4-4050-44e0-8fbd-e41364e529b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State">
+      <UniqueIdentifier>{c8598e52-c467-44b8-8557-8b27f2742162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State\BG">
+      <UniqueIdentifier>{e14fdaaf-6227-49c9-b210-8ddc82db6a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State\HP">
+      <UniqueIdentifier>{854022f7-8976-4b8e-8b28-11be5521b1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State\Energy">
+      <UniqueIdentifier>{157e759a-a8a9-4af6-8f8e-bbebae736647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State\Ether">
+      <UniqueIdentifier>{afeae336-3b4c-472c-92d1-20de14cb60d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State\Soul">
+      <UniqueIdentifier>{56d72a6f-892d-4197-9db9-6c2c9cbfe055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\WeaponSlot">
+      <UniqueIdentifier>{5396baa0-5439-430c-94e5-fb0213808465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\State\Bar">
+      <UniqueIdentifier>{cabcd1b4-b298-4a0f-aef5-745672de2677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999.Client_IMGUI\Default">
+      <UniqueIdentifier>{72bacf92-d99c-4ef0-8424-2b6e6e9c3414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\WeaponSlot\BG">
+      <UniqueIdentifier>{f7dc572e-bdfc-4c00-999d-62b83f854f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\WeaponSlot\Slot">
+      <UniqueIdentifier>{04c5dac0-7989-4908-8927-611bf05747d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Menu">
+      <UniqueIdentifier>{d5d9837a-a836-45b3-951b-25eea9c8b445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Menu\BG">
+      <UniqueIdentifier>{dae2d7d0-9cc6-41e7-bd6e-44442c44ef02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Menu\Btn">
+      <UniqueIdentifier>{824d8e12-e5da-431f-a901-db31d5e97143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Menu\Fontaine">
+      <UniqueIdentifier>{004b77a6-01c7-4ee2-8588-5d8b3ce834cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Menu\Btn\BtnSelectFrame">
+      <UniqueIdentifier>{cd9f170d-836c-484d-b19c-8b4da1b08162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Mouse">
+      <UniqueIdentifier>{f2115994-7931-46d8-80a9-d50f3bd02097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UI_Interaction">
+      <UniqueIdentifier>{19b608b6-4a13-422c-873e-a86c609d4697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QuickAccess">
+      <UniqueIdentifier>{1c4fcaf0-1e98-4b50-8e5d-8804d345c83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QuickAccess\Top">
+      <UniqueIdentifier>{6b52f977-ab9e-487a-b12b-b9e4af64d89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QuickAccess\Explain">
+      <UniqueIdentifier>{e8bd3611-89dd-4bc7-b12f-9694757c552f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QuickAccess\BG">
+      <UniqueIdentifier>{95cea08e-aaaa-4275-a08c-0542f71326a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QuickAccess\InvBG">
+      <UniqueIdentifier>{2377af15-9969-41d3-a9e1-2ba92c69ea06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Slot">
+      <UniqueIdentifier>{5f836068-331d-4719-b5dc-6792cbce6b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Slot\SelectFrame">
+      <UniqueIdentifier>{6c6e0a0f-12ae-426d-af4c-457d984d2b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage">
+      <UniqueIdentifier>{8f0913fc-0d5e-4bdc-a7f1-bc45c809071f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Inventory">
+      <UniqueIdentifier>{6f549ffa-5ef0-4e59-91d3-fe6613536dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Top">
+      <UniqueIdentifier>{6ffc7359-556b-43ee-b3c0-d3dc91aa49b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\BG">
+      <UniqueIdentifier>{e8b91d18-2aa1-4e44-bc77-eec1ece48623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Character">
+      <UniqueIdentifier>{465ad686-bc23-417c-ad35-3f7eae3c935d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Character\BG">
+      <UniqueIdentifier>{2f4515f9-d5be-4674-b1da-bfb7c545c5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Character\Top">
+      <UniqueIdentifier>{51e1fb2a-2559-455d-997d-c70f6b05e9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Weapon">
+      <UniqueIdentifier>{cdba0152-4564-45fb-8f45-e061a9496188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Weapon\RightTop">
+      <UniqueIdentifier>{b1b7f5a6-8074-4723-a1ff-51aad52f6583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Weapon\EquipSlot">
+      <UniqueIdentifier>{250e0d4b-c0dd-4097-b252-1dc76f1c6f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Weapon\Fontaine">
+      <UniqueIdentifier>{4413042b-736c-4ff1-85fc-8ce4ae800f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Weapon\Tab">
+      <UniqueIdentifier>{b9d4116e-f2f6-4246-83bd-33461702e5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Weapon\EquipSlot\NoneFrame">
+      <UniqueIdentifier>{ae97c71f-883d-4739-a8b1-cebbae8d3272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss">
+      <UniqueIdentifier>{da8cbaa3-6bfd-4cb6-ab55-a6f554993268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus">
+      <UniqueIdentifier>{77f7d821-76aa-45ec-9166-93e24767a5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject">
+      <UniqueIdentifier>{73ca46cf-2a37-4ecd-a53c-af09f807c136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Body">
+      <UniqueIdentifier>{820deec9-4637-4d92-9b51-df9b6970b845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand">
+      <UniqueIdentifier>{866425c1-bc97-460a-9b02-004f4c570f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Weapon">
+      <UniqueIdentifier>{36e428d0-96fd-449f-9f00-a9126d9014de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\One">
+      <UniqueIdentifier>{f91329df-0e04-4529-9be3-56bbbb36ee4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Two">
+      <UniqueIdentifier>{145f2787-4e77-4d83-9d99-5063043dc0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three">
+      <UniqueIdentifier>{579a12e6-2708-46fe-8ea4-de3691bfd05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Mantari">
+      <UniqueIdentifier>{8066cd2f-c87b-4d80-bc24-803f18701313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Mantari\MantariSword">
+      <UniqueIdentifier>{301c332e-f555-403a-85db-d893d905baf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element">
+      <UniqueIdentifier>{3ed72453-e097-48c8-af7f-66659bbfb60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\00. Passive_Element">
+      <UniqueIdentifier>{2c808c05-f24a-4a20-8596-ecc6b1eddd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\01. TutorialMapBridge">
+      <UniqueIdentifier>{f2c6ea6c-eaf0-42d7-8370-8c60459eb823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Mantari\Body">
+      <UniqueIdentifier>{ee45d660-7f32-4363-847c-96719c561cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Legionnaire">
+      <UniqueIdentifier>{c8ce4180-2eb0-477f-9fed-2e8b5705abf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun">
+      <UniqueIdentifier>{fdc2adbf-bc69-45fb-8f4e-f96d74ead0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject">
+      <UniqueIdentifier>{f11bf536-e453-4164-b0b8-846c71a58c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Body">
+      <UniqueIdentifier>{c804aa51-e83c-4cb8-94b3-4683a873bb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon">
+      <UniqueIdentifier>{ec6e2399-4e94-454d-9ec3-5b28cb6e775a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Ghost">
+      <UniqueIdentifier>{07401c7c-d2a6-4f61-88b5-ed4a9ea60a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Ghost\Body">
+      <UniqueIdentifier>{e8538dba-0638-468e-9aa9-7c5f95d44e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Homonculus">
+      <UniqueIdentifier>{e5b6e09e-877d-40e3-8096-e3c7eb4cbf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Homonculus\Body">
+      <UniqueIdentifier>{3fa0fc76-9382-4dd6-be82-626980f8c02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\00. Passive_Element\00. Deco_Element">
+      <UniqueIdentifier>{11ee1bf9-e805-4ec7-8de9-4b67c07f4889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\08. vehicle">
+      <UniqueIdentifier>{c854afd1-c438-4f4a-ac9f-866c4171925b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\FadeInFadeOut">
+      <UniqueIdentifier>{92832647-1401-41cc-aa61-c44d4394fe50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Ghost\GhostSword">
+      <UniqueIdentifier>{b60a75ea-4059-4a3b-b1f8-22312624836b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Homonculus\HomonculusFist">
+      <UniqueIdentifier>{127d022a-955f-4e46-a133-c313370b1483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\01.Item">
+      <UniqueIdentifier>{4584d7f8-8826-4ed4-8a75-fd7c16382134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Logo">
+      <UniqueIdentifier>{a0e9d04e-21ca-4d17-8e09-8c9eaf2d8469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Logo\BG">
+      <UniqueIdentifier>{7fb5f7f2-faa0-49fe-8d0e-6ba12fe96f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Logo\Banner">
+      <UniqueIdentifier>{10431bd1-fefb-4ef7-b3d8-cd6889419a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Logo\Title">
+      <UniqueIdentifier>{7b553402-79da-431b-a26f-e34ba5d7851b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Logo\Selector">
+      <UniqueIdentifier>{a18e8000-0809-49df-bfe1-bc5b2da7b0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Loading">
+      <UniqueIdentifier>{18247cd8-88d3-49f1-a9af-acf939a8b236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Loading\BG">
+      <UniqueIdentifier>{b9eb2ff4-ed36-48d9-9e8a-a8dcea632693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Loading\Circle">
+      <UniqueIdentifier>{d4f4d034-d774-4f8e-91d6-37364a511304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\02. Trigger">
+      <UniqueIdentifier>{b26739c1-9d84-4ec4-abc9-abb542a35d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\02. FakeWall">
+      <UniqueIdentifier>{cb0ad04b-85e2-4407-9076-686705c77f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\BG_Alpha">
+      <UniqueIdentifier>{24ba0fa8-6961-4fea-9e7d-687585a0abb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Inventory\SubPage">
+      <UniqueIdentifier>{9d97ecb1-dd92-4ef0-85e0-1578cb148a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Inventory\SubPage\Btn">
+      <UniqueIdentifier>{1284269f-d108-45e2-a934-30622165c875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Inventory\SubPage\Btn\SelectBtn">
+      <UniqueIdentifier>{764c4693-58b6-4522-a3a0-3ceb55a69034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster">
+      <UniqueIdentifier>{6f4140cd-e27c-4841-92d4-3343bd6ea106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\MonsterHP">
+      <UniqueIdentifier>{a8f7e093-d7cc-4eac-ab15-edddd4416c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossHP">
+      <UniqueIdentifier>{19f1aea8-9114-4a65-ae4b-25749a625edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\MonsterHP\HP">
+      <UniqueIdentifier>{014e7567-3fcf-4454-9187-9aeefa31e6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\MonsterHP\Bar">
+      <UniqueIdentifier>{430fadba-db92-4503-81fc-121ceeb503c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossHP\HP">
+      <UniqueIdentifier>{bca13e18-5839-40b3-adfc-4d11536216e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossHP\Bar">
+      <UniqueIdentifier>{797cfed9-c9a5-491b-ba98-e9e7f7878711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\01.Item\ItemData">
+      <UniqueIdentifier>{e290039f-557c-4284-8a13-ba5ecfbdd0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\09. Inventory">
+      <UniqueIdentifier>{5d4f607a-2778-4276-b2fe-855b55a6f118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Item">
+      <UniqueIdentifier>{db2db847-41f5-41ab-a3a2-1540af63ba5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Item\DropItem">
+      <UniqueIdentifier>{c6fab907-2ff1-4d11-ae26-6f40a3e58d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Item\ItemIcon">
+      <UniqueIdentifier>{5b2719c6-e710-4e18-b60c-e7b875940d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Item\DropItem\BG">
+      <UniqueIdentifier>{eef70477-7e4f-4c87-aeaa-0e16eecf38b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\09. Decal">
+      <UniqueIdentifier>{f8256433-8ec3-4da6-b973-98aef5a48e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Menu\AlphaBG">
+      <UniqueIdentifier>{5d8ee429-87e2-475c-931d-e2535718ae55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Logo\Flow">
+      <UniqueIdentifier>{39d3674a-c4c9-4eca-a448-de7b46c88df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Cameras">
+      <UniqueIdentifier>{76ad73bb-b076-4596-bcf9-4cd613663360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03. Ackbar">
+      <UniqueIdentifier>{8684d1fa-42aa-4b3a-8c6e-b6f745010d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04. Jugglas">
+      <UniqueIdentifier>{bdd32a81-1b29-46c9-8804-6329141cd4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\TargetLock">
+      <UniqueIdentifier>{e17294db-7aca-494a-9b65-3b6be763a9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern">
+      <UniqueIdentifier>{1eff1286-9325-4c32-8ccc-b1d100a78a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Lightning">
+      <UniqueIdentifier>{c118e00a-1bf7-4b2a-9140-460f81a21d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three\Aspiration">
+      <UniqueIdentifier>{8e5b6bfa-306f-41fc-aadf-8254e5f711f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three\Sphere">
+      <UniqueIdentifier>{25dfd320-8b51-4364-96ea-4b400298b495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\CircleSphere">
+      <UniqueIdentifier>{b119cff7-f0a9-4e5b-a7f6-239808aa03d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\03. Elevator">
+      <UniqueIdentifier>{fefc47bf-3d3a-4277-9bb8-1fe3af7fedb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc">
+      <UniqueIdentifier>{7a30e980-4fba-4bf9-89c3-75a78d6d9675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Rlya">
+      <UniqueIdentifier>{c96bcd34-d6ee-4e0f-a249-a7ca1e2a1605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Rlya\Body">
+      <UniqueIdentifier>{d20e68f6-915e-45f5-96fa-fb7d51ec5e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Script">
+      <UniqueIdentifier>{3924d01b-da55-44a4-84ae-7a3d2b57c5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Script\BG_Npc">
+      <UniqueIdentifier>{abfaa6e3-c0a6-42d6-b279-0cf536646508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Script\DialogBox">
+      <UniqueIdentifier>{5a7d013a-f26e-45ad-84ce-49166e28b11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Script\NameBox">
+      <UniqueIdentifier>{f04ee3ed-beea-4656-b632-dbf3e3f8a913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Script\BG_Aura">
+      <UniqueIdentifier>{1a9eefa8-0360-476b-8623-90ce57616fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\04. RotateGate">
+      <UniqueIdentifier>{cdb9c6cb-e5cd-4522-a7f5-06685678f6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Activate">
+      <UniqueIdentifier>{4a335379-b095-48d2-b582-70d62d891cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\ScreenBlood">
+      <UniqueIdentifier>{4f88ec85-50f1-4c31-b5fc-488ee688f4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Slot\EquipSign">
+      <UniqueIdentifier>{a9a7e6a4-767e-4b96-ba1a-0593e10b2e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\Fire">
+      <UniqueIdentifier>{d0100aad-c10c-4eb1-9079-7b40e15eb3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\03. Trap">
+      <UniqueIdentifier>{1d0a1bad-0052-4027-855e-7ba8239ed853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Upgrade">
+      <UniqueIdentifier>{46812d85-c354-471a-849e-49e9f41d2d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Upgrade\BG">
+      <UniqueIdentifier>{c726aad1-8270-470a-abc6-1eac1e757bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Upgrade\Forge">
+      <UniqueIdentifier>{27572855-1d14-468a-b2e1-ed2167726a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Upgrade\Crucible">
+      <UniqueIdentifier>{26be552d-0619-48a1-91c1-84f2e44ca3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Upgrade\Forge_Text">
+      <UniqueIdentifier>{980feb26-4125-4acc-9e62-2fc893b35546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage">
+      <UniqueIdentifier>{d0bb7a59-4ffd-4de0-88ba-57379bd19c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\BG">
+      <UniqueIdentifier>{399239cd-fe63-4ba2-96cc-758dd465378c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Slot">
+      <UniqueIdentifier>{cda03890-d718-4cba-b6e1-257da1beab74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Slot\Select">
+      <UniqueIdentifier>{889c754e-9a89-47a6-a939-fc26705d482b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Btn">
+      <UniqueIdentifier>{6ad4144d-99a5-4a39-bf4d-6b1a661d609b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Top">
+      <UniqueIdentifier>{35cb5793-75d0-4a5a-8965-94622f8a2ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Circle">
+      <UniqueIdentifier>{4ada5e71-b6f9-44fb-945d-7f1bb7779bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\NameBox">
+      <UniqueIdentifier>{198546d0-2cf1-46ac-99c8-c86ae40d152a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Btn\Select">
+      <UniqueIdentifier>{93117aa8-880b-40cd-b12d-3e2d9888b7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Slot\ItemSlot">
+      <UniqueIdentifier>{2648eec4-dcef-42e2-81ef-07ea5f71043f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Material">
+      <UniqueIdentifier>{deaf1947-9ec0-4a68-a16e-8f9b601e2165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\UpgradePage\Value">
+      <UniqueIdentifier>{05183035-daef-4ba2-b93f-56b354ad6ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\05. BossDeco">
+      <UniqueIdentifier>{62fb3047-5cc1-4921-8e92-90d35050c67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\07. TreasureChest">
+      <UniqueIdentifier>{b9789d9c-3a7d-4069-9325-cecb231bb956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras">
+      <UniqueIdentifier>{46d5952e-6b40-41a3-a4d7-843ef4e2d3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\08. vehicle\TestPhysX">
+      <UniqueIdentifier>{7c17f5ee-b39d-4caf-9cae-83d139f794dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map">
+      <UniqueIdentifier>{7b3c2953-9677-4a59-bd16-8017282433cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map\BG">
+      <UniqueIdentifier>{e590a2c4-1db0-415c-9745-6f8dd47ccec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map\Area">
+      <UniqueIdentifier>{47454585-99bf-49e1-8e54-4594f2f4736d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map\Detail">
+      <UniqueIdentifier>{5ccea95a-3a8c-425b-a94b-ccaf7692fb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map\User">
+      <UniqueIdentifier>{191bea9a-5938-4003-ac96-5a476cf61599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map\User\PosIcon">
+      <UniqueIdentifier>{ba3e64e3-afdb-4e04-85d5-d9560f2af937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Map\Detail\Icon">
+      <UniqueIdentifier>{32bf73e1-1a66-499b-aabe-cdd5945d0754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body">
+      <UniqueIdentifier>{6f406b74-b7d3-48d3-931d-5c0cf80f59db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword">
+      <UniqueIdentifier>{b1bb8d0d-0a05-4be2-b53f-005da4a70b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\BossStatue">
+      <UniqueIdentifier>{5c5f2ea1-ba71-4c96-a550-82ee0656cc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\05. AndrasArena">
+      <UniqueIdentifier>{c199f8ee-dcbd-4d16-8929-80b03b0a4160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\06. GrassLand">
+      <UniqueIdentifier>{7bcb7c22-4238-415b-b8b4-1d483d2cb199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Valnir">
+      <UniqueIdentifier>{0b32b9e1-7d74-49c8-a2a2-afc90e0b3ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Valnir\Body">
+      <UniqueIdentifier>{d84833e0-afcb-4bf8-9551-1a11f7326ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Shop">
+      <UniqueIdentifier>{6c726358-52bf-48ee-9123-fa2a1e5c0c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Shop\BG">
+      <UniqueIdentifier>{4c42ea5c-e836-438b-973f-47d90a341a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Shop\SoulBG">
+      <UniqueIdentifier>{589edf63-cc1e-4d10-a5f9-0c0c9e4eba39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Shop\Select">
+      <UniqueIdentifier>{189dd6dc-b120-4e1f-b76e-1757d4dc0829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Shop\RemainIcon">
+      <UniqueIdentifier>{fcc21c4f-1f42-4357-946d-5b753024ed51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Up_Completed">
+      <UniqueIdentifier>{439e4736-3f31-4fa8-8a7c-086a5f34088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Up_Completed\BG">
+      <UniqueIdentifier>{0f45e09d-06f0-489c-bbe4-a8110583038b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Up_Completed\Circle">
+      <UniqueIdentifier>{ac8b3476-de65-48ce-9a00-4e0f3a7dcdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Up_Completed\Forge">
+      <UniqueIdentifier>{98d3e829-be77-4f3f-89d3-2f4f49b29f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Up_Completed\Crucible">
+      <UniqueIdentifier>{d2127b06-1227-4a66-96ee-f09fc4497164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Shop\AnimBG">
+      <UniqueIdentifier>{e6b0da4a-fe04-4aba-b86a-8c91f7fff6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting">
+      <UniqueIdentifier>{4a54f9d6-9d5f-4fbd-848c-ed1ee25057e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting\Star">
+      <UniqueIdentifier>{ebbba6ff-08f7-4721-850e-e42b4fe07261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting\Overlay">
+      <UniqueIdentifier>{f21664aa-0444-4b93-85fc-ec9ad794d356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting\Btn">
+      <UniqueIdentifier>{84f20eee-8974-4449-a67e-a3f0dc1c6155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting\Back">
+      <UniqueIdentifier>{91a6a92d-35bd-4c31-90b7-6397a4063fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Choron">
+      <UniqueIdentifier>{ba90cae1-42a8-4b12-9fe1-381c627d9348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Choron\Body">
+      <UniqueIdentifier>{d38e4306-7778-4027-8488-fdc47178a55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Yaak">
+      <UniqueIdentifier>{528869d5-9a08-44fc-ac6b-0d0f57da505e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\04. Npc\Yaak\Body">
+      <UniqueIdentifier>{2fffda1f-381a-43ba-82e2-7fc06a971726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Script\Key">
+      <UniqueIdentifier>{4c1f2b64-d3fe-4fb3-8d53-d762c6e6e3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Ch_Upgrade">
+      <UniqueIdentifier>{a9507cd2-e936-47b2-a14e-1cf967fe9524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Ch_Upgrade\Btn">
+      <UniqueIdentifier>{d58146bd-636c-4d90-b24f-ac3e502c1dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Ch_Upgrade\Btn\Select">
+      <UniqueIdentifier>{f6b6b686-58ae-497c-ae08-577a25842ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Ch_Upgrade\OkBtn">
+      <UniqueIdentifier>{15bf1a52-67d6-49c4-b72f-54c46cdbcd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QTE">
+      <UniqueIdentifier>{b97ce2fb-4d24-4678-a5c1-e9900ccdd9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QTE\Btn">
+      <UniqueIdentifier>{4ad03b4c-a384-4103-b3a8-f14df4213172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QTE\Btn\Ring">
+      <UniqueIdentifier>{c99645d8-4ef8-4ae1-9c92-f523d21b7107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\Heals">
+      <UniqueIdentifier>{23f5d785-8fe0-45b6-886c-acc058241b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel">
+      <UniqueIdentifier>{d0eaf09d-66ea-4aa9-956a-e8f4b61b7ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado">
+      <UniqueIdentifier>{182b1577-a31a-4fd3-b2f8-b88ff8baa5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\MalkhelSword">
+      <UniqueIdentifier>{8b67b8eb-1f89-4b5c-afa4-71733913dba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Body">
+      <UniqueIdentifier>{c000afbf-5735-4064-bc42-464125050740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern">
+      <UniqueIdentifier>{eff48dd8-a8e2-4f8b-ac18-ec5f896e3b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Broken">
+      <UniqueIdentifier>{0c3900b6-4c0b-4f9a-a490-d97ebc0df39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\05. Cloud">
+      <UniqueIdentifier>{8f311101-5eef-40eb-bc46-22fd415539b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Dash">
+      <UniqueIdentifier>{2aad0df8-07fa-401d-96f4-67011444a8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\10.SavePoint">
+      <UniqueIdentifier>{4ed1a5b4-83e4-47e9-a85a-00875473acfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\08. BackGround_Card">
+      <UniqueIdentifier>{a82678a3-b18a-495d-94f6-7e821e7a5179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\Skill">
+      <UniqueIdentifier>{1d3764cb-b074-40bc-a083-acf3568e4ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\BuffTimer">
+      <UniqueIdentifier>{1b207385-5668-46a1-8025-df89076f9b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\BuffTimer\BuffTimer">
+      <UniqueIdentifier>{01f292b3-b585-40af-819e-d50d278d26f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\BuffTimer\BuffTimer\Timer">
+      <UniqueIdentifier>{9d3135de-5241-4e70-b1bc-a685ae95844a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\BuffTimer\BuffTimer\Bar">
+      <UniqueIdentifier>{7284ece3-a41f-40b4-83e9-6ba2d72cf736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\FadeInFadeOut\Memento">
+      <UniqueIdentifier>{f12ec35e-4d9b-4d05-a8a3-5f51afb71870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting\Sound">
+      <UniqueIdentifier>{650291b6-48a6-4b07-855e-27eb80fe49b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\MenuPage\Setting\Sound\Bar">
+      <UniqueIdentifier>{1d5ac9d6-58ee-4094-8aa6-1fe27c435555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\06. Lagoon">
+      <UniqueIdentifier>{486f42e8-b153-426e-957b-6c073414c5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QTE\Btn\Score">
+      <UniqueIdentifier>{072a4605-069c-48c7-9c83-0e7243e45ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QTE\Btn\Score\Particle">
+      <UniqueIdentifier>{bd16358b-4685-4f24-8547-a7a7e594fa6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\RedDot">
+      <UniqueIdentifier>{1c3f8585-f0bc-42fe-95f2-80b42fb102f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\999.InitLoader">
+      <UniqueIdentifier>{49ea12b8-be93-4169-94e0-6c804e5c797f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Yantari">
+      <UniqueIdentifier>{f4dd844b-59ca-44d6-8d83-990e1d78e8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Body">
+      <UniqueIdentifier>{12baab93-2196-481c-9803-efd65021caff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\YantariSword">
+      <UniqueIdentifier>{1e529997-c700-4c80-9f26-10649c80c077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\FadeInFadeOut\AeonsLost">
+      <UniqueIdentifier>{1b875788-8b7c-4f33-a55c-1368976a6cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor">
+      <UniqueIdentifier>{3be91e83-3564-4b6d-abad-ae9a3dc6b27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\04. Vegetation">
+      <UniqueIdentifier>{9725b54e-3d93-41e9-b044-6f17adf8a17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\04. Vegetation\00. Grass">
+      <UniqueIdentifier>{2cf9eea6-c4c3-43e2-b1ee-f733309fd916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\07. Moon">
+      <UniqueIdentifier>{96512c81-6708-42a4-8f4f-8730331d4a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar">
+      <UniqueIdentifier>{3fe135e0-966c-4312-a9dd-908386476d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern">
+      <UniqueIdentifier>{e981cba5-39dc-48fd-8fe2-fd576fcc65ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle">
+      <UniqueIdentifier>{2e3253bd-568f-4ec8-8537-feba25eb4f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Weapon\JugglusHammerSpawn">
+      <UniqueIdentifier>{548536ab-9129-4bad-9bbd-e92cb3194193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern">
+      <UniqueIdentifier>{b2e4d449-0ed2-4059-9980-8b1fe794bcf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser">
+      <UniqueIdentifier>{27368fcf-a373-417d-9be0-6ce5fa065070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\KickSword">
+      <UniqueIdentifier>{38f5b161-4571-43d8-bcaa-0f385634f40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\QTE\Btn\Score\Shine">
+      <UniqueIdentifier>{2a3bbf4f-bf0c-4af6-921e-70885535074a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Level">
+      <UniqueIdentifier>{76abc2ea-fbff-4e63-8830-f6c52dff643b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Level\BG">
+      <UniqueIdentifier>{a765ec9b-63af-495b-8f8c-e3f1d3dcb977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Level\TextBox">
+      <UniqueIdentifier>{2e69359c-7c50-43d1-88a2-25091170ceb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Cameras\00. Free">
+      <UniqueIdentifier>{0c037ddb-f937-42d8-bd6d-e3d8f1af58f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Cameras\04. CutSceneCamera">
+      <UniqueIdentifier>{f4ce6af7-7da3-40d2-8c97-866f5fcd85c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Cameras\02. SideView">
+      <UniqueIdentifier>{6cbae87c-1690-4d5d-8859-ce47f8fed19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Cameras\01. ThirdPerson">
+      <UniqueIdentifier>{7b52c189-7098-4046-b9af-63f578db4e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Cameras\03. Transition">
+      <UniqueIdentifier>{f44c0e31-9f04-48e6-be62-39a81841c722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\HexaShield">
+      <UniqueIdentifier>{acacff6f-b31a-4893-8fdb-12e5255bed3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\GroundSlash">
+      <UniqueIdentifier>{0072fe49-26b2-4135-8270-0b52067b9006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\RushSword">
+      <UniqueIdentifier>{76988682-71e3-47a1-87dd-d0f96e2f95ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\05. FallPlatform">
+      <UniqueIdentifier>{c98b7873-a5e3-4d32-926e-dd102c79c78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Cinematic">
+      <UniqueIdentifier>{edfab1b0-2109-419a-bd05-c1bdd4700630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\ArrowSign">
+      <UniqueIdentifier>{107d2d39-54af-4c08-8413-cd90aff513ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Portal">
+      <UniqueIdentifier>{6f98949e-8174-4b4e-86f5-3ce01587c691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Portal\Pic">
+      <UniqueIdentifier>{6679d443-51f6-4f90-aecb-6f6ad38af090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Portal\Text">
+      <UniqueIdentifier>{cacc585b-f8a6-4a0f-b297-81cbec8c3953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\FireFly">
+      <UniqueIdentifier>{b9c70525-f0af-4338-8b43-63230e55c9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\BlackHole">
+      <UniqueIdentifier>{786a5b3a-e4b8-4d68-84e0-fc744e512576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\Needle">
+      <UniqueIdentifier>{d5708efc-1646-4bb1-a32b-f547317b5546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\HUD\WeaponSlot\BG\Effect">
+      <UniqueIdentifier>{ea913c6d-9ef8-48a9-b0ad-ef09216bf474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossHP\Shield">
+      <UniqueIdentifier>{54c1cae6-48f7-401d-b11f-753322af8e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\Map_Element\01. Active_Element\09. BackGround_Rock">
+      <UniqueIdentifier>{c2477c4b-9154-4fc9-87a6-290578101688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\10.SavePoint\WellCylinder">
+      <UniqueIdentifier>{6b398394-c81b-4ac4-b5a5-eb40d6bc14ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect\MagicCast">
+      <UniqueIdentifier>{7d0457d3-3f0f-4e30-861a-c8b186831b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel">
+      <UniqueIdentifier>{66b32cba-f4da-441c-bbc2-b3fca24e9678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\PhaseChange">
+      <UniqueIdentifier>{e212648a-4bd4-4978-9b0c-5d8f5333c44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossText">
+      <UniqueIdentifier>{4e8bb720-b753-4ca3-9c71-78ff36bcad24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossText\BG">
+      <UniqueIdentifier>{641a311d-72c4-42c0-b45a-cf1b6305fede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07. UI\Monster\BossText\TextBox">
+      <UniqueIdentifier>{a2370f4d-dfa6-41de-af24-0a5ab26cf954}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Levels\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObjects\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>02.GameObjects\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FreeCamera.h">
+      <Filter>02.GameObjects\99.Cameras\00. Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkLift.h">
+      <Filter>02.GameObjects\05.ForkLift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PartObject.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Player.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LandObject.h">
+      <Filter>02.GameObjects\02.LandObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02.GameObjects\04.Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Distortion.h">
+      <Filter>02.GameObjects\06.Effect\Distortion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Clone.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Clone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map_Element.h" />
+    <ClInclude Include="..\Public\WhisperSword_Anim.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\WhisperSword_Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DurgaSword.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\DurgaSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PretorianSword.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\PretorianSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RadamantheSword.h">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\RadamantheSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map_Element.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CImGuiMgr.h">
+      <Filter>999.Client_IMGUI\ImGuiMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>02.GameObjects\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup.h">
+      <Filter>02.GameObjects\07. UI\UI_Group</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_State.h">
+      <Filter>02.GameObjects\07. UI\HUD\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_StateBG.h">
+      <Filter>02.GameObjects\07. UI\HUD\State\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Manager.h">
+      <Filter>02.GameObjects\07. UI\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_StateBar.h">
+      <Filter>02.GameObjects\07. UI\HUD\State\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_StateHP.h">
+      <Filter>02.GameObjects\07. UI\HUD\State\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_StateEnergy.h">
+      <Filter>02.GameObjects\07. UI\HUD\State\Energy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_StateEther.h">
+      <Filter>02.GameObjects\07. UI\HUD\State\Ether</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_StateSoul.h">
+      <Filter>02.GameObjects\07. UI\HUD\State\Soul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imconfig.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imgui.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imgui_impl_dx11.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imgui_impl_win32.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imgui_internal.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imstb_rectpack.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imstb_textedit.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUi\imstb_truetype.h">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Function.hpp">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_WeaponSlot.h">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WeaponSlotBG.h">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WeaponSlot.h">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Menu.h">
+      <Filter>02.GameObjects\07. UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuBG.h">
+      <Filter>02.GameObjects\07. UI\Menu\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuFontaine.h">
+      <Filter>02.GameObjects\07. UI\Menu\Fontaine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuBtn.h">
+      <Filter>02.GameObjects\07. UI\Menu\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Menu_SelectFrame.h">
+      <Filter>02.GameObjects\07. UI\Menu\Btn\BtnSelectFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouse.h">
+      <Filter>02.GameObjects\07. UI\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Interaction.h">
+      <Filter>02.GameObjects\07. UI\UI_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Quick.h">
+      <Filter>02.GameObjects\07. UI\QuickAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuickBG.h">
+      <Filter>02.GameObjects\07. UI\QuickAccess\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuickTop.h">
+      <Filter>02.GameObjects\07. UI\QuickAccess\Top</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuickExplain.h">
+      <Filter>02.GameObjects\07. UI\QuickAccess\Explain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuickInvBG.h">
+      <Filter>02.GameObjects\07. UI\QuickAccess\InvBG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Slot.h">
+      <Filter>02.GameObjects\07. UI\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Slot_Frame.h">
+      <Filter>02.GameObjects\07. UI\Slot\SelectFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Character.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_CharacterBG.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Character\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_CharacterTop.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Character\Top</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Inventory.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuPageBG.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuPageTop.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Top</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Weapon.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WeaponRTop.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\RightTop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WPEquipSlot.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\EquipSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WPFontaine.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\Fontaine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WPEquipNone.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\EquipSlot\NoneFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_WeaponTab.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Juggulus.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Juggulus.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Juggulus_Hammer.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Juggulus_HandOne.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\One</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Mantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Mantari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Weapon_Mantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Mantari\MantariSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TutorialMapBridge.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\01. TutorialMapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Mantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Mantari\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Juggulus_HandTwo.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Two</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Legionnaire.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Legionnaire.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Legionnaire.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Juggulus_HandThree.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Legionnaire_Gun.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_LGGun.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Gun_LGGun.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Ghost.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Ghost.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Ghost\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Homonculus.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Homonculus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Homonculus.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Homonculus\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Passive_Element.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CHoverboard.h">
+      <Filter>02.GameObjects\08. vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Particle.h">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Particle_Point.h">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Particle_Rect.h">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Particle_Trail.h">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\ParticleMesh.h">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EffectManager.h">
+      <Filter>02.GameObjects\06.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Active_Element.h" />
+    <ClInclude Include="..\Public\Weapon_Ghost.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Ghost\GhostSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Homonculus.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Homonculus\HomonculusFist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_FadeInOut.h">
+      <Filter>02.GameObjects\07. UI\FadeInFadeOut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item.h">
+      <Filter>02.GameObjects\02.LandObject\01.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ThirdPersonCamera.h">
+      <Filter>02.GameObjects\99.Cameras\01. ThirdPerson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Logo.h">
+      <Filter>02.GameObjects\07. UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LogoBG.h">
+      <Filter>02.GameObjects\07. UI\Logo\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LogoBanner.h">
+      <Filter>02.GameObjects\07. UI\Logo\Banner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LogoTitle.h">
+      <Filter>02.GameObjects\07. UI\Logo\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LogoSelector.h">
+      <Filter>02.GameObjects\07. UI\Logo\Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Loading.h">
+      <Filter>02.GameObjects\07. UI\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LoadingBG.h">
+      <Filter>02.GameObjects\07. UI\Loading\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EventTrigger.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\02. Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FakeWall.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\02. FakeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Passive_Element.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\00. Passive_Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Active_Element.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LoadingCircle.h">
+      <Filter>02.GameObjects\07. UI\Loading\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuPage_BGAlpha.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\BG_Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_InvSub.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory\SubPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_InvSub_Btn.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory\SubPage\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_InvSub_BtnSelect.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory\SubPage\Btn\SelectBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_MonsterHP.h">
+      <Filter>02.GameObjects\07. UI\Monster\MonsterHP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MonsterHP.h">
+      <Filter>02.GameObjects\07. UI\Monster\MonsterHP\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_BossHP.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BossHP.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BossHPBar.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Sword_LGGun.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Arrow_LGGun.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Particle_STrail.h">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MonsterHPBar.h">
+      <Filter>02.GameObjects\07. UI\Monster\MonsterHP\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemData.h">
+      <Filter>02.GameObjects\02.LandObject\01.Item\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Inventory.h">
+      <Filter>02.GameObjects\09. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_DropItem.h">
+      <Filter>02.GameObjects\07. UI\Item\DropItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DropItemBG.h">
+      <Filter>02.GameObjects\07. UI\Item\DropItem\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Decal.h">
+      <Filter>02.GameObjects\09. Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Distortion_Effect.h">
+      <Filter>02.GameObjects\06.Effect\Distortion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ItemIcon.h">
+      <Filter>02.GameObjects\07. UI\Item\ItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MenuAlphaBG.h">
+      <Filter>02.GameObjects\07. UI\Menu\AlphaBG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LogoFlow.h">
+      <Filter>02.GameObjects\07. UI\Logo\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TargetLock.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\TargetLock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Ackbar.h">
+      <Filter>01.Levels\03. Ackbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Jugglas.h">
+      <Filter>01.Levels\04. Jugglas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SideViewCamera.h">
+      <Filter>02.GameObjects\99.Cameras\02. SideView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Aspiration.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three\Aspiration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sphere.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CircleSphere.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\CircleSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Deco_Element.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\00. Passive_Element\00. Deco_Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Elevator.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\03. Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Npc.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NPC_Rlya.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Rlya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Rlya.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Rlya\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Script.h">
+      <Filter>02.GameObjects\07. UI\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ScriptBG_Aura.h">
+      <Filter>02.GameObjects\07. UI\Script\BG_Aura</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ScriptBG_Npc.h">
+      <Filter>02.GameObjects\07. UI\Script\BG_Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Script_DialogBox.h">
+      <Filter>02.GameObjects\07. UI\Script\DialogBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Script_NameBox.h">
+      <Filter>02.GameObjects\07. UI\Script\NameBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RotateGate.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\04. RotateGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Trap.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\03. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Activate.h">
+      <Filter>02.GameObjects\07. UI\Activate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ScreenBlood.h">
+      <Filter>02.GameObjects\07. UI\ScreenBlood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Slot_EquipSign.h">
+      <Filter>02.GameObjects\07. UI\Slot\EquipSign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\FireEffect.h">
+      <Filter>02.GameObjects\06.Effect\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Import_Object_.hpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Upgrade.h">
+      <Filter>02.GameObjects\07. UI\Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpgradeBG.h">
+      <Filter>02.GameObjects\07. UI\Upgrade\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpgradeForge.h">
+      <Filter>02.GameObjects\07. UI\Upgrade\Forge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpgradeForge_Text.h">
+      <Filter>02.GameObjects\07. UI\Upgrade\Forge_Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpgradeCrucible.h">
+      <Filter>02.GameObjects\07. UI\Upgrade\Crucible</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_UpGPage.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPageBG.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPageTop.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Top</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_NameBox.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\NameBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_Circle.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPageBtn.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPageBtn_Select.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Btn\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_Slot.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_SelectSlot.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Slot\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_ItemSlot.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Slot\ItemSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Andras.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestPhysXCollider.h">
+      <Filter>02.GameObjects\08. vehicle\TestPhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TransitionCamera.h">
+      <Filter>02.GameObjects\99.Cameras\03. Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossDeco.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\05. BossDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossStatue.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\BossStatue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TreasureChest.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\07. TreasureChest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_MatSlot.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpGPage_Value.h">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Map.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MapBG.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MapArea.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MapDetail.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MapIcon.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\Detail\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MapUser.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MapPosIcon.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\User\PosIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Andras.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Andras.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Andras2.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Andras3.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Andras4.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Andras5.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RushSword.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\RushSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tree.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\04. Vegetation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_AndrasArena.h">
+      <Filter>01.Levels\05. AndrasArena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GrassLand.h">
+      <Filter>01.Levels\06. GrassLand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Npc_Valnir.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Valnir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Valnir.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Valnir\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Shop.h">
+      <Filter>02.GameObjects\07. UI\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ShopBG.h">
+      <Filter>02.GameObjects\07. UI\Shop\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Shop_SoulBG.h">
+      <Filter>02.GameObjects\07. UI\Shop\SoulBG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ShopSelect.h">
+      <Filter>02.GameObjects\07. UI\Shop\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Shop_RemainIcon.h">
+      <Filter>02.GameObjects\07. UI\Shop\RemainIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_UP_Completed.h">
+      <Filter>02.GameObjects\07. UI\Up_Completed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lightning.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Electronic.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="Import_Class.h">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpCompletedBG.h">
+      <Filter>02.GameObjects\07. UI\Up_Completed\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpCompleted_Circle.h">
+      <Filter>02.GameObjects\07. UI\Up_Completed\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpCompleted_Forge.h">
+      <Filter>02.GameObjects\07. UI\Up_Completed\Forge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_UpCompleted_Crucible.h">
+      <Filter>02.GameObjects\07. UI\Up_Completed\Crucible</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Shop_AnimBG.h">
+      <Filter>02.GameObjects\07. UI\Shop\AnimBG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Setting.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Setting_Star.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Setting_Overlay.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Setting_Btn.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Setting_BackBtn.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Back</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NPC_Choron.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Choron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Choron.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Choron\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NPC_Yaak.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Yaak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Yaak.h">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Yaak\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Script_BGKey.h">
+      <Filter>02.GameObjects\07. UI\Script\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Ch_Upgrade.h">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Ch_UpgradeBtn.h">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Ch_UpgradeBtn_Select.h">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade\Btn\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Ch_Upgrade_OkBtn.h">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade\OkBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QTE.h">
+      <Filter>02.GameObjects\07. UI\QTE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QTE_Btn.h">
+      <Filter>02.GameObjects\07. UI\QTE\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\HealEffect.h">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Heal_Line.h">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Heal_Ribbon.h">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Heal_Spiral.h">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlastWall.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\02. FakeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Malkhel.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Tornado_Ring.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Tornado_Root.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\TornadoEffect.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\TornadoWind.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Malkhel.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\MalkhelSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Malkhel.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Grass.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\04. Vegetation\00. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Broken.h">
+      <Filter>02.GameObjects\07. UI\Broken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cloud.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\05. Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\AndrasHead.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SavePoint.h">
+      <Filter>02.GameObjects\10.SavePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dash.h">
+      <Filter>02.GameObjects\07. UI\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Card.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\08. BackGround_Card</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\SwingEffect.h">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Charge_Ribbon.h">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Charge_Vane.h">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\DefaultCylinder.h">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Swing_Spiral.h">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Struct.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_BuffTimer.h">
+      <Filter>02.GameObjects\07. UI\BuffTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BuffTimer_Bar.h">
+      <Filter>02.GameObjects\07. UI\BuffTimer\BuffTimer\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BuffTimer.h">
+      <Filter>02.GameObjects\07. UI\BuffTimer\BuffTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BuffTimer_Timer.h">
+      <Filter>02.GameObjects\07. UI\BuffTimer\BuffTimer\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Memento.h">
+      <Filter>02.GameObjects\07. UI\FadeInFadeOut\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Setting_Sound.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Setting_SoundBar.h">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Sound\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Meteor_Wind.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Meteor.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Meteor_Core.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mask_Andras.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lagoon.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\06. Lagoon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QTE_Ring.h">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QTE_Score.h">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QTE_Particle.h">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Score\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Rock_Ground.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\FirePillar.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\FirePillar_Bottom.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\FirePillar_Charge.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\FirePillarEffect.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CInitLoader.h">
+      <Filter>01.Levels\999.InitLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Yantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon_Yantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\YantariSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Yantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_AeonsLost.h">
+      <Filter>02.GameObjects\07. UI\FadeInFadeOut\AeonsLost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RedDot.h">
+      <Filter>02.GameObjects\07. UI\RedDot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mask_Yantari.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Moon.h">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\07. Moon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\GroundSlash.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\GroundSlash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KickSword.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\KickSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Hedgehog.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\NeedleSpawner.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\HammerSpawn.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Weapon\JugglusHammerSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FallPlatform.h">
+      <Filter>02.GameObjects\02.LandObject\05. FallPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutSceneCamera.h">
+      <Filter>02.GameObjects\99.Cameras\04. CutSceneCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\HexaHit.h">
+      <Filter>02.GameObjects\06.Effect\HexaShield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\HexaShield.h">
+      <Filter>02.GameObjects\06.Effect\HexaShield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QTE_Shine.h">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Score\Shine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Level.h">
+      <Filter>02.GameObjects\07. UI\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LevelBG.h">
+      <Filter>02.GameObjects\07. UI\Level\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Level_TextBox.h">
+      <Filter>02.GameObjects\07. UI\Level\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Cinematic.h">
+      <Filter>02.GameObjects\07. UI\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ArrowSign.h">
+      <Filter>02.GameObjects\07. UI\ArrowSign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_Portal.h">
+      <Filter>02.GameObjects\07. UI\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PortalPic.h">
+      <Filter>02.GameObjects\07. UI\Portal\Pic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\FireFlyCube.h">
+      <Filter>02.GameObjects\06.Effect\FireFly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PortalText.h">
+      <Filter>02.GameObjects\07. UI\Portal\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\BlackSphere.h">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\BlackHole.h">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\BlackHole_Ring.h">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\BlackHole_Ring_Bill.h">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\BlackHorizon.h">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\Hedgehog.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\NeedleSpawner.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUDEffect.h">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot\BG\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BossShield.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\WellCylinder.h">
+      <Filter>02.GameObjects\10.SavePoint\WellCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\BezierCurve.h">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\HelixCast.h">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\NewAspiration.h">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\MagicCast.h">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\CutSceneAndras.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PhaseChange.h">
+      <Filter>02.GameObjects\07. UI\Monster\PhaseChange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\AndrasCylinder.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParkEunHo\AndrasSphere.h">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIGroup_BossText.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BossTextBG.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossText\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BossTextBox.h">
+      <Filter>02.GameObjects\07. UI\Monster\BossText\TextBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Levels\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObjects\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>02.GameObjects\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FreeCamera.cpp">
+      <Filter>02.GameObjects\99.Cameras\00. Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkLift.cpp">
+      <Filter>02.GameObjects\05.ForkLift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PartObject.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Player.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LandObject.cpp">
+      <Filter>02.GameObjects\02.LandObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02.GameObjects\04.Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Distortion.cpp">
+      <Filter>02.GameObjects\06.Effect\Distortion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Clone.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Clone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map_Element.cpp" />
+    <ClCompile Include="..\Private\WhisperSword_Anim.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\WhisperSword_Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DurgaSword.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\DurgaSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PretorianSword.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\PretorianSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RadamantheSword.cpp">
+      <Filter>02.GameObjects\02.LandObject\03.Player\PartObject\Weapon\RadamantheSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map_Element.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CImGuiMgr.cpp">
+      <Filter>999.Client_IMGUI\ImGuiMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>02.GameObjects\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup.cpp">
+      <Filter>02.GameObjects\07. UI\UI_Group</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_State.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_StateBG.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Manager.cpp">
+      <Filter>02.GameObjects\07. UI\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_StateBar.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_StateHP.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_StateEnergy.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State\Energy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_StateEther.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State\Ether</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_StateSoul.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\State\Soul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui_demo.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui_draw.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui_impl_dx11.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui_impl_win32.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui_tables.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUi\imgui_widgets.cpp">
+      <Filter>999.Client_IMGUI\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_WeaponSlot.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WeaponSlotBG.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WeaponSlot.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Menu.cpp">
+      <Filter>02.GameObjects\07. UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuBG.cpp">
+      <Filter>02.GameObjects\07. UI\Menu\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuFontaine.cpp">
+      <Filter>02.GameObjects\07. UI\Menu\Fontaine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuBtn.cpp">
+      <Filter>02.GameObjects\07. UI\Menu\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Menu_SelectFrame.cpp">
+      <Filter>02.GameObjects\07. UI\Menu\Btn\BtnSelectFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouse.cpp">
+      <Filter>02.GameObjects\07. UI\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Interaction.cpp">
+      <Filter>02.GameObjects\07. UI\UI_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Quick.cpp">
+      <Filter>02.GameObjects\07. UI\QuickAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuickBG.cpp">
+      <Filter>02.GameObjects\07. UI\QuickAccess\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuickTop.cpp">
+      <Filter>02.GameObjects\07. UI\QuickAccess\Top</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuickExplain.cpp">
+      <Filter>02.GameObjects\07. UI\QuickAccess\Explain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuickInvBG.cpp">
+      <Filter>02.GameObjects\07. UI\QuickAccess\InvBG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Slot.cpp">
+      <Filter>02.GameObjects\07. UI\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Slot_Frame.cpp">
+      <Filter>02.GameObjects\07. UI\Slot\SelectFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Character.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_CharacterBG.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Character\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_CharacterTop.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Character\Top</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Inventory.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuPageBG.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuPageTop.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Top</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Weapon.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WeaponRTop.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\RightTop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WPEquipSlot.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\EquipSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WPFontaine.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\Fontaine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WPEquipNone.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\EquipSlot\NoneFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_WeaponTab.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Weapon\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Juggulus.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Juggulus.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Juggulus_Hammer.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Juggulus_HandOne.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\One</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Mantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Mantari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Weapon_Mantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Mantari\MantariSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TutorialMapBridge.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\01. TutorialMapBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Mantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Mantari\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Juggulus_HandTwo.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Two</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Passive_Element.cpp" />
+    <ClCompile Include="..\Private\Weapon_Legionnaire.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Legionnaire.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Legionnaire.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Juggulus_HandThree.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Legionnaire_Gun.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_LGGun.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Gun_LGGun.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Ghost.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Ghost.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Ghost\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Homonculus.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Homonculus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Homonculus.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Homonculus\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Passive_Element.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\00. Passive_Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CHoverboard.cpp">
+      <Filter>02.GameObjects\08. vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Particle.cpp">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Particle_Point.cpp">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Particle_Rect.cpp">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Particle_Trail.cpp">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\ParticleMesh.cpp">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EffectManager.cpp">
+      <Filter>02.GameObjects\06.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Active_Element.cpp" />
+    <ClCompile Include="..\Private\Weapon_Ghost.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Ghost\GhostSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Homonculus.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Homonculus\HomonculusFist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_FadeInOut.cpp">
+      <Filter>02.GameObjects\07. UI\FadeInFadeOut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item.cpp">
+      <Filter>02.GameObjects\02.LandObject\01.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ThirdPersonCamera.cpp">
+      <Filter>02.GameObjects\99.Cameras\01. ThirdPerson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Logo.cpp">
+      <Filter>02.GameObjects\07. UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LogoBG.cpp">
+      <Filter>02.GameObjects\07. UI\Logo\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LogoBanner.cpp">
+      <Filter>02.GameObjects\07. UI\Logo\Banner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LogoTitle.cpp">
+      <Filter>02.GameObjects\07. UI\Logo\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LogoSelector.cpp">
+      <Filter>02.GameObjects\07. UI\Logo\Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Loading.cpp">
+      <Filter>02.GameObjects\07. UI\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LoadingBG.cpp">
+      <Filter>02.GameObjects\07. UI\Loading\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EventTrigger.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\02. Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FakeWall.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\02. FakeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Active_Element.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LoadingCircle.cpp">
+      <Filter>02.GameObjects\07. UI\Loading\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuPage_BGAlpha.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\BG_Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_InvSub.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory\SubPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_InvSub_Btn.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory\SubPage\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_InvSub_BtnSelect.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Inventory\SubPage\Btn\SelectBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_MonsterHP.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\MonsterHP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MonsterHP.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\MonsterHP\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_BossHP.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BossHP.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BossHPBar.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Sword_LGGun.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Arrow_LGGun.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Legionnaire_Gun\PartObject\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Particle_STrail.cpp">
+      <Filter>02.GameObjects\06.Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MonsterHPBar.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\MonsterHP\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemData.cpp">
+      <Filter>02.GameObjects\02.LandObject\01.Item\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Inventory.cpp">
+      <Filter>02.GameObjects\09. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_DropItem.cpp">
+      <Filter>02.GameObjects\07. UI\Item\DropItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DropItemBG.cpp">
+      <Filter>02.GameObjects\07. UI\Item\DropItem\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Decal.cpp">
+      <Filter>02.GameObjects\09. Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Distortion_Effect.cpp">
+      <Filter>02.GameObjects\06.Effect\Distortion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ItemIcon.cpp">
+      <Filter>02.GameObjects\07. UI\Item\ItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MenuAlphaBG.cpp">
+      <Filter>02.GameObjects\07. UI\Menu\AlphaBG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LogoFlow.cpp">
+      <Filter>02.GameObjects\07. UI\Logo\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TargetLock.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\TargetLock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Ackbar.cpp">
+      <Filter>01.Levels\03. Ackbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Jugglas.cpp">
+      <Filter>01.Levels\04. Jugglas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SideViewCamera.cpp">
+      <Filter>02.GameObjects\99.Cameras\02. SideView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Aspiration.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three\Aspiration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sphere.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Hand\Three\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CircleSphere.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\CircleSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Deco_Element.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\00. Passive_Element\00. Deco_Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Elevator.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\03. Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Npc.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NPC_Rlya.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Rlya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Rlya.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Rlya\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Script.cpp">
+      <Filter>02.GameObjects\07. UI\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ScriptBG_Aura.cpp">
+      <Filter>02.GameObjects\07. UI\Script\BG_Aura</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ScriptBG_Npc.cpp">
+      <Filter>02.GameObjects\07. UI\Script\BG_Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Script_DialogBox.cpp">
+      <Filter>02.GameObjects\07. UI\Script\DialogBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Script_NameBox.cpp">
+      <Filter>02.GameObjects\07. UI\Script\NameBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RotateGate.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\04. RotateGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Trap.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\03. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Activate.cpp">
+      <Filter>02.GameObjects\07. UI\Activate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ScreenBlood.cpp">
+      <Filter>02.GameObjects\07. UI\ScreenBlood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Slot_EquipSign.cpp">
+      <Filter>02.GameObjects\07. UI\Slot\EquipSign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\FireEffect.cpp">
+      <Filter>02.GameObjects\06.Effect\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Upgrade.cpp">
+      <Filter>02.GameObjects\07. UI\Upgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpgradeBG.cpp">
+      <Filter>02.GameObjects\07. UI\Upgrade\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpgradeForge.cpp">
+      <Filter>02.GameObjects\07. UI\Upgrade\Forge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpgradeForge_Text.cpp">
+      <Filter>02.GameObjects\07. UI\Upgrade\Forge_Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpgradeCrucible.cpp">
+      <Filter>02.GameObjects\07. UI\Upgrade\Crucible</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_UpGPage.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPageBG.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPageTop.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Top</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_NameBox.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\NameBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_Circle.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPageBtn.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPageBtn_Select.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Btn\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_Slot.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_SelectSlot.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Slot\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_ItemSlot.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Slot\ItemSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Andras.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestPhysXCollider.cpp">
+      <Filter>02.GameObjects\08. vehicle\TestPhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TransitionCamera.cpp">
+      <Filter>02.GameObjects\99.Cameras\03. Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossDeco.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\05. BossDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossStatue.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\BossStatue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TreasureChest.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\07. TreasureChest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_MatSlot.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpGPage_Value.cpp">
+      <Filter>02.GameObjects\07. UI\UpgradePage\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Map.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MapBG.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MapArea.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MapDetail.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MapIcon.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\Detail\Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MapUser.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MapPosIcon.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Map\User\PosIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Andras.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Andras.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Andras5.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Andras2.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Andras3.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Andras4.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\AndrasSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RushSword.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\RushSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tree.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\04. Vegetation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_AndrasArena.cpp">
+      <Filter>01.Levels\05. AndrasArena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GrassLand.cpp">
+      <Filter>01.Levels\06. GrassLand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Npc_Valnir.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Valnir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Valnir.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Valnir\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Shop.cpp">
+      <Filter>02.GameObjects\07. UI\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ShopBG.cpp">
+      <Filter>02.GameObjects\07. UI\Shop\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Shop_SoulBG.cpp">
+      <Filter>02.GameObjects\07. UI\Shop\SoulBG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ShopSelect.cpp">
+      <Filter>02.GameObjects\07. UI\Shop\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Shop_RemainIcon.cpp">
+      <Filter>02.GameObjects\07. UI\Shop\RemainIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_UP_Completed.cpp">
+      <Filter>02.GameObjects\07. UI\Up_Completed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lightning.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Electronic.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpCompletedBG.cpp">
+      <Filter>02.GameObjects\07. UI\Up_Completed\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpCompleted_Circle.cpp">
+      <Filter>02.GameObjects\07. UI\Up_Completed\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpCompleted_Forge.cpp">
+      <Filter>02.GameObjects\07. UI\Up_Completed\Forge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_UpCompleted_Crucible.cpp">
+      <Filter>02.GameObjects\07. UI\Up_Completed\Crucible</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Shop_AnimBG.cpp">
+      <Filter>02.GameObjects\07. UI\Shop\AnimBG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Setting.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Setting_Star.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Setting_Overlay.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Setting_Btn.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Setting_BackBtn.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NPC_Choron.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Choron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Choron.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Choron\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NPC_Yaak.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Yaak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Yaak.cpp">
+      <Filter>02.GameObjects\02.LandObject\04. Npc\Yaak\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Script_BGKey.cpp">
+      <Filter>02.GameObjects\07. UI\Script\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Ch_Upgrade.cpp">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Ch_UpgradeBtn.cpp">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Ch_UpgradeBtn_Select.cpp">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade\Btn\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Ch_Upgrade_OkBtn.cpp">
+      <Filter>02.GameObjects\07. UI\Ch_Upgrade\OkBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QTE.cpp">
+      <Filter>02.GameObjects\07. UI\QTE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QTE_Btn.cpp">
+      <Filter>02.GameObjects\07. UI\QTE\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\HealEffect.cpp">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Heal_Line.cpp">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Heal_Ribbon.cpp">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Heal_Spiral.cpp">
+      <Filter>02.GameObjects\06.Effect\Heals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlastWall.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\02. FakeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Malkhel.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Tornado_Ring.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Tornado_Root.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\TornadoEffect.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\TornadoWind.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Malkhel.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\MalkhelSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Malkhel.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Grass.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\04. Vegetation\00. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Broken.cpp">
+      <Filter>02.GameObjects\07. UI\Broken</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cloud.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\05. Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasHead.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasLazer.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasLazer_Base.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasLazer_Cylinder.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasRain.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasScrew.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\ElectricCylinder.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\LazerCast.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\ShieldSphere.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SavePoint.cpp">
+      <Filter>02.GameObjects\10.SavePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dash.cpp">
+      <Filter>02.GameObjects\07. UI\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Card.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\01. Active_Element\08. BackGround_Card</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\SwingEffect.cpp">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Charge_Ribbon.cpp">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Charge_Vane.cpp">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\DefaultCylinder.cpp">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Swing_Spiral.cpp">
+      <Filter>02.GameObjects\06.Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_BuffTimer.cpp">
+      <Filter>02.GameObjects\07. UI\BuffTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BuffTimer_Bar.cpp">
+      <Filter>02.GameObjects\07. UI\BuffTimer\BuffTimer\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BuffTimer.cpp">
+      <Filter>02.GameObjects\07. UI\BuffTimer\BuffTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BuffTimer_Timer.cpp">
+      <Filter>02.GameObjects\07. UI\BuffTimer\BuffTimer\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Memento.cpp">
+      <Filter>02.GameObjects\07. UI\FadeInFadeOut\Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Setting_Sound.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Setting_SoundBar.cpp">
+      <Filter>02.GameObjects\07. UI\MenuPage\Setting\Sound\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Meteor_Wind.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Meteor.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Meteor_Core.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Malkhel\Pattern\Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mask_Andras.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lagoon.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\06. Lagoon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QTE_Ring.cpp">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QTE_Score.cpp">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QTE_Particle.cpp">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Score\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Rock_Ground.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\FirePillar.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\FirePillar_Bottom.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\FirePillar_Charge.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\FirePillarEffect.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\Pattern\FirePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CInitLoader.cpp">
+      <Filter>01.Levels\999.InitLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Yantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon_Yantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\YantariSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Yantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_AeonsLost.cpp">
+      <Filter>02.GameObjects\07. UI\FadeInFadeOut\AeonsLost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RedDot.cpp">
+      <Filter>02.GameObjects\07. UI\RedDot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mask_Yantari.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Moon.cpp">
+      <Filter>02.GameObjects\01.Terrain\Map_Element\07. Moon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\GroundSlash.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\GroundSlash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KickSword.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\Pattern\KickSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Hedgehog.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\NeedleSpawner.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\HammerSpawn.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Juggulus\PartObject\Weapon\JugglusHammerSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FallPlatform.cpp">
+      <Filter>02.GameObjects\02.LandObject\05. FallPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutSceneCamera.cpp">
+      <Filter>02.GameObjects\99.Cameras\04. CutSceneCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\HexaShield.cpp">
+      <Filter>02.GameObjects\06.Effect\HexaShield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\HexaHit.cpp">
+      <Filter>02.GameObjects\06.Effect\HexaShield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QTE_Shine.cpp">
+      <Filter>02.GameObjects\07. UI\QTE\Btn\Score\Shine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Level.cpp">
+      <Filter>02.GameObjects\07. UI\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LevelBG.cpp">
+      <Filter>02.GameObjects\07. UI\Level\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Level_TextBox.cpp">
+      <Filter>02.GameObjects\07. UI\Level\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Cinematic.cpp">
+      <Filter>02.GameObjects\07. UI\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ArrowSign.cpp">
+      <Filter>02.GameObjects\07. UI\ArrowSign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_Portal.cpp">
+      <Filter>02.GameObjects\07. UI\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PortalPic.cpp">
+      <Filter>02.GameObjects\07. UI\Portal\Pic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\FireFlyCube.cpp">
+      <Filter>02.GameObjects\06.Effect\FireFly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PortalText.cpp">
+      <Filter>02.GameObjects\07. UI\Portal\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\BlackSphere.cpp">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\BlackHole.cpp">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\BlackHole_Ring.cpp">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\BlackHole_Ring_Bill.cpp">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\BlackHorizon.cpp">
+      <Filter>02.GameObjects\06.Effect\BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\Hedgehog.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\NeedleSpawner.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Yantari\Pattern\Needle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUDEffect.cpp">
+      <Filter>02.GameObjects\07. UI\HUD\WeaponSlot\BG\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BossShield.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossHP\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\WellCylinder.cpp">
+      <Filter>02.GameObjects\10.SavePoint\WellCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\MagicCast.cpp">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\NewAspiration.cpp">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\BezierCurve.cpp">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\HelixCast.cpp">
+      <Filter>02.GameObjects\06.Effect\MagicCast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\CutSceneAndras.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PhaseChange.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\PhaseChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasCylinder.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParkEunHo\AndrasSphere.cpp">
+      <Filter>02.GameObjects\02.LandObject\02.Monster\Boss\Andras\CutSceneModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIGroup_BossText.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BossTextBG.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossText\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BossTextBox.cpp">
+      <Filter>02.GameObjects\07. UI\Monster\BossText\TextBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Rect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Point.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Mesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxUITex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Sky.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Cell.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Compute.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_MapElement.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Trail.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMapElement.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_FrameTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_SwordTrail.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_DistortionRect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Lightning.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Fire.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_NewPoint.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_MeshEffect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Tree.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxTreasureChest.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Grass.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCloud.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxLagoon.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

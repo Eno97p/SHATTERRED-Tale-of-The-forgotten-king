@@ -1,0 +1,6 @@
+(0) ChaudronJugulus.ao|Anim_JugulusChaudron_Fall
+(1) ChaudronJugulus.ao|Anim_JugulusChaudron_Fall.001
+(2) ChaudronJugulus.ao|Anim_JugulusChaudron_Fall.002
+(3) ChaudronJugulus.ao|ChaudronJugulus_AnimLoop
+(4) ChaudronJugulus.ao|ChaudronJugulus_AnimLoop.001
+(5) ChaudronJugulus.ao|ChaudronJugulus_AnimLoop.002

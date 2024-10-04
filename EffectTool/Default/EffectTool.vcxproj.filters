@@ -1,0 +1,766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{0b94b47c-5344-4055-82fc-3928a73486a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="00. Main">
+      <UniqueIdentifier>{25e66581-ab83-4e92-ab2d-f81d361e7373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImguiMgr">
+      <UniqueIdentifier>{2b67f4e1-67ba-490f-9b13-2471b27b3cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{5ec0b07a-d9cf-4308-92fd-e664e14ed3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{2a15b78c-8ec7-46ec-902a-0b115ceac548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{b2bc2ff4-c9e7-48c2-99fb-36cfa40b8e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\00.BackGround">
+      <UniqueIdentifier>{863fc58a-146f-4709-a5e3-6115bb4fa9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\01. Map">
+      <UniqueIdentifier>{6b57afe2-b062-4c85-8497-ab2a986a3155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\03. Player">
+      <UniqueIdentifier>{47091793-1175-49db-b7a7-47edd653a4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\03. Player\PartObj">
+      <UniqueIdentifier>{8f68e98f-4af0-4bbc-9136-e939cf91677c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\03. Player\PartObj\Weapons">
+      <UniqueIdentifier>{311ae2d0-96a9-4ea8-9d3d-c2c12a5d2722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\03. Player\PartObj\Weapons\WhisperSword">
+      <UniqueIdentifier>{2d08cf60-90f6-4644-9944-9034252de6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\04. TextureFrame">
+      <UniqueIdentifier>{11f5a40f-81c7-4744-a2a4-063979db7f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\03. Player\PartObj\Head">
+      <UniqueIdentifier>{ea8ba2aa-a7ff-40bb-ae06-e315ccd5cf18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\999. Imgui">
+      <UniqueIdentifier>{0ac58ef3-2e12-4e5e-8f41-6e6fca800553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\999. Imgui\Backend">
+      <UniqueIdentifier>{6b658bc0-f7d3-4e45-8167-ab476c1782b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects">
+      <UniqueIdentifier>{ca76c706-dc25-4408-9796-b4cd184d434f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\00. Point">
+      <UniqueIdentifier>{a50811a6-c4a2-439d-9277-a56a7819a0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\01. Rect">
+      <UniqueIdentifier>{e6947a54-5820-4d01-b9d9-f5182906a973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\02. Mesh">
+      <UniqueIdentifier>{ecb3c875-4547-4ab0-9855-72c4852a3202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\03. Trail">
+      <UniqueIdentifier>{c4c389d4-3e59-422d-89e3-3ea652862297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\04. SwordTrail">
+      <UniqueIdentifier>{8b0154dd-d31c-4f95-981e-7a021c554134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\05. Distortion">
+      <UniqueIdentifier>{379e86d4-c910-4278-bda9-796ed379b7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\06. Electron">
+      <UniqueIdentifier>{5e49ad1e-1c74-4c61-bf13-50ed2b7eeb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\07. Line">
+      <UniqueIdentifier>{857372ea-31f6-4878-bfa7-7fc1a2979bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\08. Fire">
+      <UniqueIdentifier>{6a12edb2-2520-4131-aacd-a049ca3c75d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster">
+      <UniqueIdentifier>{83aa6b58-483c-4699-891e-cdfbd5872442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\Andras">
+      <UniqueIdentifier>{ba113568-cf54-4e05-9dea-8debd7cb00fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\Andras\AndrasWeapon">
+      <UniqueIdentifier>{79871a2e-8ea1-4617-8096-523907bddfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\Andras\AndrasLazer">
+      <UniqueIdentifier>{cc77f6ff-85c1-41ba-aba2-5aa1722d27d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\09. Tornado">
+      <UniqueIdentifier>{a3773ea3-79bd-4258-9ba0-889027bbdd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\09. Tornado\Effects">
+      <UniqueIdentifier>{4ef6b1a3-074b-4411-8091-ce6644a70902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\Andras\AndrasLazer\Effects">
+      <UniqueIdentifier>{b8f8f708-a98d-4bb5-80bd-75d460d62187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\10. FirePillar">
+      <UniqueIdentifier>{1bf3ef14-2bfb-4a7f-8320-7982367cfb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\10. FirePillar\Effects">
+      <UniqueIdentifier>{db991e8b-eea8-4feb-9c6f-d6fec86719aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\11. HealEffect">
+      <UniqueIdentifier>{72af6fc6-46bd-49a5-8bee-7e87c7666d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\11. HealEffect\Effects">
+      <UniqueIdentifier>{d45c9d42-c8d0-4f5b-93b4-2645d2504c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\12. SwingEffect">
+      <UniqueIdentifier>{83f78fe1-3bcb-4a67-b125-82d7ca5ce83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\12. SwingEffect\Effects">
+      <UniqueIdentifier>{eccc28df-c5c2-4e5d-9411-68c2a373dbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\HoverBoard">
+      <UniqueIdentifier>{489a8cb1-2389-49ad-a798-9df08a0c0edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\HoverBoard\Booster">
+      <UniqueIdentifier>{2c59ed9a-6809-4559-9679-1086b500a6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\13. Meteor">
+      <UniqueIdentifier>{8ac1e993-31f8-47b7-8627-1a4d6bf445ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\13. Meteor\Effects">
+      <UniqueIdentifier>{d318e34a-09e2-463e-8166-3da95b3730f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\14. PhysXParticle">
+      <UniqueIdentifier>{73ae0830-e6d8-4558-a75d-9f8dbee3712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\15. Hedgehog">
+      <UniqueIdentifier>{c66062d7-3db5-406c-9cbc-6809071bdd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\16. GroundSlash">
+      <UniqueIdentifier>{bb8505a6-4662-48db-af4b-5398a1cd2c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\17. Jugglus">
+      <UniqueIdentifier>{941b2fce-0f99-473c-a5ff-8c35bda1cca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\18. HexaShield">
+      <UniqueIdentifier>{94f755af-e0f0-4d26-ba24-30b82ddab5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\19. FireFly">
+      <UniqueIdentifier>{152662e2-d1fe-4e6e-8aff-810a854e3fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\20. BlackHole">
+      <UniqueIdentifier>{39bd8142-f0a3-461a-bae7-40693890fd94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\05. Monster\CutSceneAndras">
+      <UniqueIdentifier>{6b90bec7-07ff-403d-8c6f-3b2a77f37d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\21. WellCylinder">
+      <UniqueIdentifier>{c35e255e-4a75-4b6b-b999-f32e04e7f730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\22. Casting">
+      <UniqueIdentifier>{aa937d02-97dd-4d7a-aef0-621cf22a61b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\02. Effects\22. Casting\Effects">
+      <UniqueIdentifier>{21120859-4c7e-4020-9236-bbedec15ee37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Imgui\imconfig.h">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imgui.h">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imgui_internal.h">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imstb_rectpack.h">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imstb_textedit.h">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imstb_truetype.h">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Backend\imgui_impl_dx11.h">
+      <Filter>99. Default\999. Imgui\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Backend\imgui_impl_win32.h">
+      <Filter>99. Default\999. Imgui\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTool.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Define.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Main.h">
+      <Filter>00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiMgr.h">
+      <Filter>ImguiMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuarterCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>Objects\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map_Flat.h">
+      <Filter>Objects\01. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map.h">
+      <Filter>Objects\01. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>Objects\03. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Particle.h">
+      <Filter>Objects\02. Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Point.h">
+      <Filter>Objects\02. Effects\00. Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Rect.h">
+      <Filter>Objects\02. Effects\01. Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParticleMesh.h">
+      <Filter>Objects\02. Effects\02. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Trail.h">
+      <Filter>Objects\02. Effects\03. Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WhisperSword_Anim.h">
+      <Filter>Objects\03. Player\PartObj\Weapons\WhisperSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PartObject.h">
+      <Filter>Objects\03. Player\PartObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon.h">
+      <Filter>Objects\03. Player\PartObj\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TextureFrame.h">
+      <Filter>Objects\04. TextureFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerHead.h">
+      <Filter>Objects\03. Player\PartObj\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_STrail.h">
+      <Filter>Objects\02. Effects\04. SwordTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Distortion_Effect.h">
+      <Filter>Objects\02. Effects\05. Distortion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Electronic.h">
+      <Filter>Objects\02. Effects\06. Electron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LineTest.h">
+      <Filter>Objects\02. Effects\07. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FireEffect.h">
+      <Filter>Objects\02. Effects\08. Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Andras.h">
+      <Filter>Objects\05. Monster\Andras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasSword1.h">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasSword2.h">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasSword3.h">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasSword4.h">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasSword5.h">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TornadoEffect.h">
+      <Filter>Objects\02. Effects\09. Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TornadoWind.h">
+      <Filter>Objects\02. Effects\09. Tornado\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tornado_Root.h">
+      <Filter>Objects\02. Effects\09. Tornado\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AndrasLazer.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AndrasLazer_Base.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasLazer_Cylinder.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasRain.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasScrew.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ElectricCylinder.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ShieldSphere.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tornado_Ring.h">
+      <Filter>Objects\02. Effects\09. Tornado\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FirePillar.h">
+      <Filter>Objects\02. Effects\10. FirePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FirePillarEffect.h">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FirePillar_Bottom.h">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AndrasHead.h">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HealEffect.h">
+      <Filter>Objects\02. Effects\11. HealEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Heal_Ribbon.h">
+      <Filter>Objects\02. Effects\11. HealEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Heal_Spiral.h">
+      <Filter>Objects\02. Effects\11. HealEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Heal_Line.h">
+      <Filter>Objects\02. Effects\11. HealEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SwingEffect.h">
+      <Filter>Objects\02. Effects\12. SwingEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Swing_Spiral.h">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LazerCast.h">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HoverBoard.h">
+      <Filter>Objects\05. Monster\HoverBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Charge_Vane.h">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Charge_Ribbon.h">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DefaultCylinder.h">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Meteor.h">
+      <Filter>Objects\02. Effects\13. Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Meteor_Core.h">
+      <Filter>Objects\02. Effects\13. Meteor\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Meteor_Wind.h">
+      <Filter>Objects\02. Effects\13. Meteor\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FirePillar_Charge.h">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_Ground.h">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_PhysX.h">
+      <Filter>Objects\02. Effects\14. PhysXParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hedgehog.h">
+      <Filter>Objects\02. Effects\15. Hedgehog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NeedleSpawner.h">
+      <Filter>Objects\02. Effects\15. Hedgehog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GroundSlash.h">
+      <Filter>Objects\02. Effects\16. GroundSlash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HammerSpawn.h">
+      <Filter>Objects\02. Effects\17. Jugglus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HexaShield.h">
+      <Filter>Objects\02. Effects\18. HexaShield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HexaHit.h">
+      <Filter>Objects\02. Effects\18. HexaShield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FireFlyCube.h">
+      <Filter>Objects\02. Effects\19. FireFly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlackHole.h">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackSphere.h">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackHole_Ring.h">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlackHorizon.h">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackHole_Ring_Bill.h">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutSceneAndras.h">
+      <Filter>Objects\05. Monster\CutSceneAndras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WellCylinder.h">
+      <Filter>Objects\02. Effects\21. WellCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MagicCast.h">
+      <Filter>Objects\02. Effects\22. Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HelixCast.h">
+      <Filter>Objects\02. Effects\22. Casting\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BezierCurve.h">
+      <Filter>Objects\02. Effects\22. Casting\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NewAspiration.h">
+      <Filter>Objects\02. Effects\22. Casting\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasCylinder.h">
+      <Filter>Objects\05. Monster\CutSceneAndras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndrasSphere.h">
+      <Filter>Objects\05. Monster\CutSceneAndras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Imgui\imgui.cpp">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_demo.cpp">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_draw.cpp">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_tables.cpp">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_widgets.cpp">
+      <Filter>99. Default\999. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Backend\imgui_impl_dx11.cpp">
+      <Filter>99. Default\999. Imgui\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Backend\imgui_impl_win32.cpp">
+      <Filter>99. Default\999. Imgui\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectTool.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Main.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiMgr.cpp">
+      <Filter>ImguiMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuarterCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>Objects\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map_Flat.cpp">
+      <Filter>Objects\01. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map.cpp">
+      <Filter>Objects\01. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>Objects\03. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Particle.cpp">
+      <Filter>Objects\02. Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Point.cpp">
+      <Filter>Objects\02. Effects\00. Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Rect.cpp">
+      <Filter>Objects\02. Effects\01. Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParticleMesh.cpp">
+      <Filter>Objects\02. Effects\02. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Trail.cpp">
+      <Filter>Objects\02. Effects\03. Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon.cpp">
+      <Filter>Objects\03. Player\PartObj\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PartObject.cpp">
+      <Filter>Objects\03. Player\PartObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TextureFrame.cpp">
+      <Filter>Objects\04. TextureFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WhisperSword_Anim.cpp">
+      <Filter>Objects\03. Player\PartObj\Weapons\WhisperSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerHead.cpp">
+      <Filter>Objects\03. Player\PartObj\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_STrail.cpp">
+      <Filter>Objects\02. Effects\04. SwordTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Distortion_Effect.cpp">
+      <Filter>Objects\02. Effects\05. Distortion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Electronic.cpp">
+      <Filter>Objects\02. Effects\06. Electron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LineTest.cpp">
+      <Filter>Objects\02. Effects\07. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FireEffect.cpp">
+      <Filter>Objects\02. Effects\08. Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Andras.cpp">
+      <Filter>Objects\05. Monster\Andras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasSword1.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasSword2.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasSword3.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasSword4.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasSword5.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TornadoEffect.cpp">
+      <Filter>Objects\02. Effects\09. Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TornadoWind.cpp">
+      <Filter>Objects\02. Effects\09. Tornado\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tornado_Root.cpp">
+      <Filter>Objects\02. Effects\09. Tornado\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AndrasLazer.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AndrasLazer_Base.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasLazer_Cylinder.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasRain.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasScrew.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ElectricCylinder.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ShieldSphere.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tornado_Ring.cpp">
+      <Filter>Objects\02. Effects\09. Tornado\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FirePillar.cpp">
+      <Filter>Objects\02. Effects\10. FirePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FirePillarEffect.cpp">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FirePillar_Bottom.cpp">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AndrasHead.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HealEffect.cpp">
+      <Filter>Objects\02. Effects\11. HealEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Heal_Ribbon.cpp">
+      <Filter>Objects\02. Effects\11. HealEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Heal_Spiral.cpp">
+      <Filter>Objects\02. Effects\11. HealEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Heal_Line.cpp">
+      <Filter>Objects\02. Effects\11. HealEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SwingEffect.cpp">
+      <Filter>Objects\02. Effects\12. SwingEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Swing_Spiral.cpp">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LazerCast.cpp">
+      <Filter>Objects\05. Monster\Andras\AndrasLazer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HoverBoard.cpp">
+      <Filter>Objects\05. Monster\HoverBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Charge_Vane.cpp">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Charge_Ribbon.cpp">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DefaultCylinder.cpp">
+      <Filter>Objects\02. Effects\12. SwingEffect\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Meteor.cpp">
+      <Filter>Objects\02. Effects\13. Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Meteor_Core.cpp">
+      <Filter>Objects\02. Effects\13. Meteor\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Meteor_Wind.cpp">
+      <Filter>Objects\02. Effects\13. Meteor\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FirePillar_Charge.cpp">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_Ground.cpp">
+      <Filter>Objects\02. Effects\10. FirePillar\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_PhysX.cpp">
+      <Filter>Objects\02. Effects\14. PhysXParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hedgehog.cpp">
+      <Filter>Objects\02. Effects\15. Hedgehog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NeedleSpawner.cpp">
+      <Filter>Objects\02. Effects\15. Hedgehog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GroundSlash.cpp">
+      <Filter>Objects\02. Effects\16. GroundSlash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HammerSpawn.cpp">
+      <Filter>Objects\02. Effects\17. Jugglus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HexaShield.cpp">
+      <Filter>Objects\02. Effects\18. HexaShield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HexaHit.cpp">
+      <Filter>Objects\02. Effects\18. HexaShield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FireFlyCube.cpp">
+      <Filter>Objects\02. Effects\19. FireFly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlackHole.cpp">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackSphere.cpp">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackHole_Ring.cpp">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlackHorizon.cpp">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackHole_Ring_Bill.cpp">
+      <Filter>Objects\02. Effects\20. BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutSceneAndras.cpp">
+      <Filter>Objects\05. Monster\CutSceneAndras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WellCylinder.cpp">
+      <Filter>Objects\02. Effects\21. WellCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MagicCast.cpp">
+      <Filter>Objects\02. Effects\22. Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HelixCast.cpp">
+      <Filter>Objects\02. Effects\22. Casting\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BezierCurve.cpp">
+      <Filter>Objects\02. Effects\22. Casting\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NewAspiration.cpp">
+      <Filter>Objects\02. Effects\22. Casting\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasCylinder.cpp">
+      <Filter>Objects\05. Monster\CutSceneAndras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndrasSphere.cpp">
+      <Filter>Objects\05. Monster\CutSceneAndras</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EffectTool.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Imgui\.editorconfig">
+      <Filter>99. Default\999. Imgui</Filter>
+    </None>
+    <None Include="..\Imgui\.gitattributes">
+      <Filter>99. Default\999. Imgui</Filter>
+    </None>
+    <None Include="..\Imgui\.gitignore">
+      <Filter>99. Default\999. Imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EffectTool.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

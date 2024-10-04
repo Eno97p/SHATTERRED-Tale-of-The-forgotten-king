@@ -1,0 +1,6 @@
+(0) SKM_JugulusHand2.ao|Anim_JugulusHand2_Death
+(1) SKM_JugulusHand2.ao|Anim_JugulusHand2_Idle
+(2) SKM_JugulusHand2.ao|Anim_JugulusHand2_NegensCinematic
+(3) SKM_JugulusHand2.ao|Anim_JugulusHand2_NegensCinematic_Idle
+(4) SKM_JugulusHand2.ao|Anim_JugulusHand2_Pattern2
+(5) SKM_JugulusHand2.ao|DefaultSlot

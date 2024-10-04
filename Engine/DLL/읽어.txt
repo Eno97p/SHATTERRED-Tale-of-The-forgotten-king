@@ -1,0 +1,65 @@
+../Public/Blast/
+../Public/Blast/globals/
+../Public/Blast/lowlevel/
+../Public/Blast/shared/NvFoundation/
+../Public/Blast/toolkit/
+../Public/Blast/extensions/assetutils/
+../Public/Blast/extensions/authoring/
+../Public/Blast/extensions/authoringCommon/
+../Public/Blast/extensions/serialization/
+../Public/Blast/extensions/shaders/
+../Public/Blast/extensions/stress/
+
+----------------------------------------------------------------
+위에꺼 무시해도 됨
+
+
+
+1. 헤더파일 추가하기
+
+[프로젝트] 	속성 -> C/C++ ->일반 -> 추가 포함 디렉토리
+에 아래 디렉토리 추가 (자기 툴에서 릴리즈모드로 할거라면 릴리즈 빌드도 똑같이      )
+(구성 선택하는 곳에서 모든 구성선택하고 넣어도 됨)
+
+../../EngineSDK/Inc/Blast/globals/
+../../EngineSDK/Inc/Blast/lowlevel/
+../../EngineSDK/Inc/Blast/shared/NvFoundation/
+../../EngineSDK/Inc/Blast/toolkit/
+../../EngineSDK/Inc/Blast/extensions/assetutils/
+../../EngineSDK/Inc/Blast/extensions/authoring/
+../../EngineSDK/Inc/Blast/extensions/authoringCommon/
+../../EngineSDK/Inc/Blast/extensions/serialization/
+../../EngineSDK/Inc/Blast/extensions/shaders/
+../../EngineSDK/Inc/Blast/extensions/stress/
+
+
+
+2. Lib 추가하기
+[프로젝트] 속성 ->일반 ->추가 라이브러리 디렉터리
+에 아래 디렉토리 추가 
+../../EngineSDK/Lib/Blast/Debug/
+
+릴리즈도 할거면 
+../../EngineSDK/Lib/Blast/Release/
+
+
+
+
+
+
+3.DLL파일 넣기
+	(1). DLL파일 Debug넣기
+		받은 .ZIP파일에서 {각 항목} Debug폴더안에 있는 DLL을
+		자기 자신 컴퓨터에서
+		Engine/DLL/{각 항목}/Debug/
+		에 복붙
+
+
+	(2). DLL파일 Release넣기
+		받은 .ZIP파일에서 {각 항목} Release폴더안에 있는 DLL을
+		자기 자신 컴퓨터에서
+		Engine/DLL/{각 항목}/Release/
+		에 복붙
+
+
+4. .bat파일 돌리기

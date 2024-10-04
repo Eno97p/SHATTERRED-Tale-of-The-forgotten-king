@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{091a0a14-05e6-46e7-a804-da21af70e7eb}</ProjectGuid>
+    <RootNamespace>EffectTool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02. EffectTool</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../Imgui/;../Public/;../../EngineSDK/Inc/;../../EngineSDK/Inc/PhysX/;../Backend/;../Public/DirectXTex/;../../EngineSDK/Inc/Blast/globals/;../../EngineSDK/Inc/Blast/lowlevel/;../../EngineSDK/Inc/Blast/shared/NvFoundation/;../../EngineSDK/Inc/Blast/toolkit/;../../EngineSDK/Inc/Blast/extensions/assetutils/;../../EngineSDK/Inc/Blast/extensions/authoring/;../../EngineSDK/Inc/Blast/extensions/authoringCommon/;../../EngineSDK/Inc/Blast/extensions/serialization/;../../EngineSDK/Inc/Blast/extensions/shaders/;../../EngineSDK/Inc/Blast/extensions/stress/;../../EngineSDK/Inc/Nvidia_HBAO/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Lib/;../Lib/;../../EngineSDK/Lib/Blast/Debug/;../../EngineSDK/Lib/Nvidia/HBAO/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTexd.lib;GFSDK_ShadowLib_DX11.win64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8388608</StackReserveSize>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call Copy.bat
+cd /d $(SolutionDir)
+call Copy_EffectTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../../EngineSDK/Inc/Blast/lowlevel/;../../EngineSDK/Inc/Blast/shared/NvFoundation/;../../EngineSDK/Inc/Blast/toolkit/;../../EngineSDK/Inc/Blast/extensions/assetutils/;../../EngineSDK/Inc/Blast/extensions/authoring/;../../EngineSDK/Inc/Blast/extensions/authoringCommon/;../../EngineSDK/Inc/Blast/extensions/serialization/;../../EngineSDK/Inc/Blast/extensions/stress/;../../EngineSDK/Inc/Blast/extensions/shaders/;../Imgui/;../Private/;../Public/;../Backend/;../../EngineSDK/Inc/;../../EngineSDK/Inc/PhysX;../Public/DirectXTex/;../../EngineSDK/Inc/Blast/globals/;../../EngineSDK/Inc/Nvidia_HBAO/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Lib/;../Lib/;../../EngineSDK/Lib/Blast/Release/;../../EngineSDK/Lib/Nvidia/HBAO/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTex.lib;GFSDK_ShadowLib_DX11.win64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call Copy_EffectTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Backend\imgui_impl_dx11.h" />
+    <ClInclude Include="..\Backend\imgui_impl_win32.h" />
+    <ClInclude Include="..\Imgui\imconfig.h" />
+    <ClInclude Include="..\Imgui\imgui.h" />
+    <ClInclude Include="..\Imgui\imgui_internal.h" />
+    <ClInclude Include="..\Imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\Imgui\imstb_textedit.h" />
+    <ClInclude Include="..\Imgui\imstb_truetype.h" />
+    <ClInclude Include="..\Public\Andras.h" />
+    <ClInclude Include="..\Public\AndrasCylinder.h" />
+    <ClInclude Include="..\public\AndrasHead.h" />
+    <ClInclude Include="..\public\AndrasLazer.h" />
+    <ClInclude Include="..\public\AndrasLazer_Base.h" />
+    <ClInclude Include="..\Public\AndrasLazer_Cylinder.h" />
+    <ClInclude Include="..\Public\AndrasRain.h" />
+    <ClInclude Include="..\Public\AndrasScrew.h" />
+    <ClInclude Include="..\Public\AndrasSphere.h" />
+    <ClInclude Include="..\Public\AndrasSword1.h" />
+    <ClInclude Include="..\Public\AndrasSword2.h" />
+    <ClInclude Include="..\Public\AndrasSword3.h" />
+    <ClInclude Include="..\Public\AndrasSword4.h" />
+    <ClInclude Include="..\Public\AndrasSword5.h" />
+    <ClInclude Include="..\Public\BackGround.h" />
+    <ClInclude Include="..\Public\BezierCurve.h" />
+    <ClInclude Include="..\public\BlackHole.h" />
+    <ClInclude Include="..\Public\BlackHole_Ring.h" />
+    <ClInclude Include="..\Public\BlackHole_Ring_Bill.h" />
+    <ClInclude Include="..\public\BlackHorizon.h" />
+    <ClInclude Include="..\Public\BlackSphere.h" />
+    <ClInclude Include="..\Public\Charge_Ribbon.h" />
+    <ClInclude Include="..\Public\Charge_Vane.h" />
+    <ClInclude Include="..\Public\CutSceneAndras.h" />
+    <ClInclude Include="..\Public\Distortion_Effect.h" />
+    <ClInclude Include="..\Public\Effect_Define.h" />
+    <ClInclude Include="..\Public\ElectricCylinder.h" />
+    <ClInclude Include="..\public\Electronic.h" />
+    <ClInclude Include="..\public\FireEffect.h" />
+    <ClInclude Include="..\public\FireFlyCube.h" />
+    <ClInclude Include="..\public\FirePillar.h" />
+    <ClInclude Include="..\Public\FirePillarEffect.h" />
+    <ClInclude Include="..\Public\FirePillar_Bottom.h" />
+    <ClInclude Include="..\Public\FirePillar_Charge.h" />
+    <ClInclude Include="..\Public\GroundSlash.h" />
+    <ClInclude Include="..\public\HealEffect.h" />
+    <ClInclude Include="..\Public\Heal_Line.h" />
+    <ClInclude Include="..\Public\Heal_Ribbon.h" />
+    <ClInclude Include="..\Public\Heal_Spiral.h" />
+    <ClInclude Include="..\public\Hedgehog.h" />
+    <ClInclude Include="..\Public\HelixCast.h" />
+    <ClInclude Include="..\Public\HexaHit.h" />
+    <ClInclude Include="..\Public\HexaShield.h" />
+    <ClInclude Include="..\Public\HoverBoard.h" />
+    <ClInclude Include="..\Public\ImguiMgr.h" />
+    <ClInclude Include="..\Public\HammerSpawn.h" />
+    <ClInclude Include="..\Public\LazerCast.h" />
+    <ClInclude Include="..\Public\Level_GamePlay.h" />
+    <ClInclude Include="..\Public\Level_Loading.h" />
+    <ClInclude Include="..\Public\Level_Logo.h" />
+    <ClInclude Include="..\public\LineTest.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\public\MagicCast.h" />
+    <ClInclude Include="..\Public\Main.h" />
+    <ClInclude Include="..\Public\Map.h" />
+    <ClInclude Include="..\Public\Map_Flat.h" />
+    <ClInclude Include="..\Public\Meteor.h" />
+    <ClInclude Include="..\Public\Meteor_Core.h" />
+    <ClInclude Include="..\Public\Meteor_Wind.h" />
+    <ClInclude Include="..\Public\NeedleSpawner.h" />
+    <ClInclude Include="..\Public\NewAspiration.h" />
+    <ClInclude Include="..\public\Particle.h" />
+    <ClInclude Include="..\Public\ParticleMesh.h" />
+    <ClInclude Include="..\Public\Particle_PhysX.h" />
+    <ClInclude Include="..\Public\Particle_Point.h" />
+    <ClInclude Include="..\Public\Particle_Rect.h" />
+    <ClInclude Include="..\Public\Particle_STrail.h" />
+    <ClInclude Include="..\Public\Particle_Trail.h" />
+    <ClInclude Include="..\Public\PartObject.h" />
+    <ClInclude Include="..\public\Player.h" />
+    <ClInclude Include="..\public\PlayerHead.h" />
+    <ClInclude Include="..\Public\QuarterCamera.h" />
+    <ClInclude Include="..\Public\Rock_Ground.h" />
+    <ClInclude Include="..\public\ShieldSphere.h" />
+    <ClInclude Include="..\Public\DefaultCylinder.h" />
+    <ClInclude Include="..\Public\SwingEffect.h" />
+    <ClInclude Include="..\Public\Swing_Spiral.h" />
+    <ClInclude Include="..\public\TextureFrame.h" />
+    <ClInclude Include="..\public\TornadoEffect.h" />
+    <ClInclude Include="..\Public\TornadoWind.h" />
+    <ClInclude Include="..\Public\Tornado_Ring.h" />
+    <ClInclude Include="..\Public\Tornado_Root.h" />
+    <ClInclude Include="..\Public\Weapon.h" />
+    <ClInclude Include="..\Public\WellCylinder.h" />
+    <ClInclude Include="..\Public\WhisperSword_Anim.h" />
+    <ClInclude Include="EffectTool.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Backend\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Backend\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Imgui\imgui.cpp" />
+    <ClCompile Include="..\Imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\Imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\Private\Andras.cpp" />
+    <ClCompile Include="..\Private\AndrasCylinder.cpp" />
+    <ClCompile Include="..\private\AndrasHead.cpp" />
+    <ClCompile Include="..\private\AndrasLazer.cpp" />
+    <ClCompile Include="..\private\AndrasLazer_Base.cpp" />
+    <ClCompile Include="..\Private\AndrasLazer_Cylinder.cpp" />
+    <ClCompile Include="..\Private\AndrasRain.cpp" />
+    <ClCompile Include="..\Private\AndrasScrew.cpp" />
+    <ClCompile Include="..\Private\AndrasSphere.cpp" />
+    <ClCompile Include="..\Private\AndrasSword1.cpp" />
+    <ClCompile Include="..\Private\AndrasSword2.cpp" />
+    <ClCompile Include="..\Private\AndrasSword3.cpp" />
+    <ClCompile Include="..\Private\AndrasSword4.cpp" />
+    <ClCompile Include="..\Private\AndrasSword5.cpp" />
+    <ClCompile Include="..\Private\BackGround.cpp" />
+    <ClCompile Include="..\Private\BezierCurve.cpp" />
+    <ClCompile Include="..\private\BlackHole.cpp" />
+    <ClCompile Include="..\Private\BlackHole_Ring.cpp" />
+    <ClCompile Include="..\Private\BlackHole_Ring_Bill.cpp" />
+    <ClCompile Include="..\private\BlackHorizon.cpp" />
+    <ClCompile Include="..\Private\BlackSphere.cpp" />
+    <ClCompile Include="..\Private\Charge_Ribbon.cpp" />
+    <ClCompile Include="..\Private\Charge_Vane.cpp" />
+    <ClCompile Include="..\Private\CutSceneAndras.cpp" />
+    <ClCompile Include="..\Private\Distortion_Effect.cpp" />
+    <ClCompile Include="..\Private\ElectricCylinder.cpp" />
+    <ClCompile Include="..\private\Electronic.cpp" />
+    <ClCompile Include="..\private\FireEffect.cpp" />
+    <ClCompile Include="..\private\FireFlyCube.cpp" />
+    <ClCompile Include="..\private\FirePillar.cpp" />
+    <ClCompile Include="..\Private\FirePillarEffect.cpp" />
+    <ClCompile Include="..\Private\FirePillar_Bottom.cpp" />
+    <ClCompile Include="..\Private\FirePillar_Charge.cpp" />
+    <ClCompile Include="..\Private\GroundSlash.cpp" />
+    <ClCompile Include="..\private\HealEffect.cpp" />
+    <ClCompile Include="..\Private\Heal_Line.cpp" />
+    <ClCompile Include="..\Private\Heal_Ribbon.cpp" />
+    <ClCompile Include="..\Private\Heal_Spiral.cpp" />
+    <ClCompile Include="..\private\Hedgehog.cpp" />
+    <ClCompile Include="..\Private\HelixCast.cpp" />
+    <ClCompile Include="..\Private\HexaHit.cpp" />
+    <ClCompile Include="..\Private\HexaShield.cpp" />
+    <ClCompile Include="..\Private\HoverBoard.cpp" />
+    <ClCompile Include="..\Private\ImguiMgr.cpp" />
+    <ClCompile Include="..\Private\HammerSpawn.cpp" />
+    <ClCompile Include="..\Private\LazerCast.cpp" />
+    <ClCompile Include="..\Private\Level_GamePlay.cpp" />
+    <ClCompile Include="..\Private\Level_Loading.cpp" />
+    <ClCompile Include="..\Private\Level_Logo.cpp" />
+    <ClCompile Include="..\private\LineTest.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\private\MagicCast.cpp" />
+    <ClCompile Include="..\Private\Main.cpp" />
+    <ClCompile Include="..\Private\Map.cpp" />
+    <ClCompile Include="..\Private\Map_Flat.cpp" />
+    <ClCompile Include="..\Private\Meteor.cpp" />
+    <ClCompile Include="..\Private\Meteor_Core.cpp" />
+    <ClCompile Include="..\Private\Meteor_Wind.cpp" />
+    <ClCompile Include="..\Private\NeedleSpawner.cpp" />
+    <ClCompile Include="..\Private\NewAspiration.cpp" />
+    <ClCompile Include="..\private\Particle.cpp" />
+    <ClCompile Include="..\Private\ParticleMesh.cpp" />
+    <ClCompile Include="..\Private\Particle_PhysX.cpp" />
+    <ClCompile Include="..\Private\Particle_Point.cpp" />
+    <ClCompile Include="..\Private\Particle_Rect.cpp" />
+    <ClCompile Include="..\Private\Particle_STrail.cpp" />
+    <ClCompile Include="..\Private\Particle_Trail.cpp" />
+    <ClCompile Include="..\Private\PartObject.cpp" />
+    <ClCompile Include="..\private\Player.cpp" />
+    <ClCompile Include="..\private\PlayerHead.cpp" />
+    <ClCompile Include="..\Private\QuarterCamera.cpp" />
+    <ClCompile Include="..\Private\Rock_Ground.cpp" />
+    <ClCompile Include="..\private\ShieldSphere.cpp" />
+    <ClCompile Include="..\Private\DefaultCylinder.cpp" />
+    <ClCompile Include="..\Private\SwingEffect.cpp" />
+    <ClCompile Include="..\Private\Swing_Spiral.cpp" />
+    <ClCompile Include="..\private\TextureFrame.cpp" />
+    <ClCompile Include="..\private\TornadoEffect.cpp" />
+    <ClCompile Include="..\Private\TornadoWind.cpp" />
+    <ClCompile Include="..\Private\Tornado_Ring.cpp" />
+    <ClCompile Include="..\Private\Tornado_Root.cpp" />
+    <ClCompile Include="..\Private\Weapon.cpp" />
+    <ClCompile Include="..\Private\WellCylinder.cpp" />
+    <ClCompile Include="..\Private\WhisperSword_Anim.cpp" />
+    <ClCompile Include="EffectTool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EffectTool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EffectTool.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Imgui\.editorconfig" />
+    <None Include="..\Imgui\.gitattributes" />
+    <None Include="..\Imgui\.gitignore" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

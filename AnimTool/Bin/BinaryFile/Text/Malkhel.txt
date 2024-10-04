@@ -1,0 +1,17 @@
+(0) SKM_Malkhel.ao|Anim_Malkhel_Attack1
+(1) SKM_Malkhel.ao|Anim_Malkhel_Attack2
+(2) SKM_Malkhel.ao|Anim_Malkhel_Attack3
+(3) SKM_Malkhel.ao|Anim_Malkhel_Attack4
+(4) SKM_Malkhel.ao|Anim_Malkhel_Attack5
+(5) SKM_Malkhel.ao|Anim_Malkhel_Attack6
+(6) SKM_Malkhel.ao|Anim_Malkhel_Attack7
+(7) SKM_Malkhel.ao|Anim_Malkhel_Death
+(8) SKM_Malkhel.ao|Anim_Malkhel_Death_Cinematic
+(9) SKM_Malkhel.ao|Anim_Malkhel_DeathLoop
+(10) SKM_Malkhel.ao|Anim_Malkhel_FlyAway
+(11) SKM_Malkhel.ao|Anim_Malkhel_Hit
+(12) SKM_Malkhel.ao|Anim_Malkhel_Idle
+(13) SKM_Malkhel.ao|Anim_Malkhel_MoveBack
+(14) SKM_Malkhel.ao|Anim_Malkhel_MoveFront
+(15) SKM_Malkhel.ao|Anim_Malkhel_MoveLeft
+(16) SKM_Malkhel.ao|Anim_Malkhel_MoveRight

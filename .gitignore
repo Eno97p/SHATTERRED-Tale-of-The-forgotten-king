@@ -1,0 +1,51 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.pssess
+*.vsp
+*.vspx
+*.vs
+
+# log files
+*.log
+*.tlog
+
+*.lastbuildstate
+*.obj
+*.pch
+*.unsuccessfulbuild
+*.pdb
+*.idb
+*.exe
+*.ilk
+*.exp
+*.recipe
+*.iobj
+*.ipdb
+
+# Ignore DLL files
+*.dll
+
+# Ignore CSO files
+*.cso
+
+# Ignore Engine.lib in the EngineSDK/Lib directory
+/EngineSDK/Lib/Engine.lib
+
+# Ignore Engine.lib in the Engine/Bin directory
+/Engine/Bin/Engine.lib
+
+
+

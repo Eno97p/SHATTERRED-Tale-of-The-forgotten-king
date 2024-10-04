@@ -1,0 +1,6 @@
+0. AndrasGroundSlash
+1. AndrasLazercast
+2. AndrasSwordDrop
+3. MalkelTeleport
+4. AndrasGroundSlash2
+5. YantatiNeedleAttack

@@ -1,0 +1,4 @@
+(0) SKM_JugulusHand3.ao|Anim_JugulusHand3_Death
+(1) SKM_JugulusHand3.ao|Anim_JugulusHand3_Idle
+(2) SKM_JugulusHand3.ao|Anim_JugulusHand3_Pattern3
+(3) SKM_JugulusHand3.ao|DefaultSlot

@@ -1,0 +1,2 @@
+(0) ChaudronJugulusSkeletal.ao|ChaudronJugulusSkeletal_Anim
+(1) ChaudronJugulusSkeletal.ao|ChaudronJugulusSkeletal_AnimLoop

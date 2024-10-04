@@ -1,0 +1,11 @@
+0. Default
+1. Red
+2. Mantari
+3. Andras
+4. HomunCulus
+5. Baldo
+6. Yellow
+7. Skyblue
+8. Malkel
+9. Yantari
+10. Jugglus

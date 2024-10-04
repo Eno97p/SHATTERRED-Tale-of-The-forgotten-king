@@ -1,0 +1,60 @@
+(0) RootNode
+(1) Fiona (merge)
+(2) Fiona
+(3) Bip001
+(4) Bip001 Footsteps
+(5) Bip001 Pelvis
+(6) Bip001 Spine
+(7) Bip001 L Thigh
+(8) Bip001 L Calf
+(9) Bip001 L Foot
+(10) Bip001 L Toe0
+(11) Bip001 L Toe0Nub
+(12) Bip001 R Thigh
+(13) Bip001 R Calf
+(14) Bip001 R Foot
+(15) Bip001 R Toe0
+(16) Bip001 R Toe0Nub
+(17) Bip001 Spine1
+(18) Bip001 Spine2
+(19) Bip001 Neck
+(20) Bip001 Head
+(21) Bip001 Hair
+(22) Bip001 Hair02
+(23) Bip001 HairNub
+(24) Bip001 HeadNub
+(25) Bip001 Ponytail1
+(26) Bip001 Ponytail1Nub
+(27) Bip001 Ponytail2
+(28) Bip001 Ponytail2Nub
+(29) Bip001 L Clavicle
+(30) Bip001 L UpperArm
+(31) Bip001 L Forearm
+(32) Bip001 L Hand
+(33) Bip001 L Finger0
+(34) Bip001 L Finger0Nub
+(35) Bone - morningstar01
+(36) Bone - morningstar02
+(37) Bone - morningstar03
+(38) Bone - morningstar04
+(39) Bone - morningstar05
+(40) Bip001 R Clavicle
+(41) Bip001 R UpperArm
+(42) Bip001 R Forearm
+(43) Bip001 R Hand
+(44) Bip001 R Finger0
+(45) Bip001 R Finger0Nub
+(46) Sword
+(47) SWORD
+(48) Bone - catBase
+(49) Bone - catbody01
+(50) Bone - catbody02
+(51) Bone - cattail01
+(52) Bone - cattail02
+(53) Bone - cattail03
+(54) Bone - cattail04
+(55) Cake_Mesh
+(56) Fiona_Mesh
+(57) morningstar
+(58) PlayerShadow
+(59) SlaveAnim

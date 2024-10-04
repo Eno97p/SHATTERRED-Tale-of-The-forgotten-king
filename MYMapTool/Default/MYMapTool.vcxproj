@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{B87F8168-BEAB-4033-9502-697F4DFC2E0E}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>03. MYMapTool</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;E:\VSD\Visual Leak Detector\include;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;E:\VSD\Visual Leak Detector\lib\Win64;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <EntryPointName>PS_MAIN</EntryPointName>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <EntryPointName>PS_MAIN</EntryPointName>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../EngineSDK/Inc/;../Public/;../../EngineSDK/Inc/PhysX;%(AdditionalIncludeDirectories);../../EngineSDK/Inc/Blast/globals/;../../EngineSDK/Inc/Blast/lowlevel/;../../EngineSDK/Inc/Blast/shared/NvFoundation/;../../EngineSDK/Inc/Blast/toolkit/;../../EngineSDK/Inc/Blast/extensions/assetutils/;../../EngineSDK/Inc/Blast/extensions/authoring/;../../EngineSDK/Inc/Blast/extensions/authoringCommon/;../../EngineSDK/Inc/Blast/extensions/serialization/;../../EngineSDK/Inc/Blast/extensions/shaders/;../../EngineSDK/Inc/Blast/extensions/stress/;../Public/DirectXTex/;../../EngineSDK/Inc/Nvidia_HBAO/include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Lib/;../../EngineSDK/Lib/Blast/Debug/;../Lib/;../../EngineSDK/Lib/Nvidia/HBAO/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;DirectXTexd.lib;GFSDK_ShadowLib_DX11.win64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PreBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call Copy_MapTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../EngineSDK/Inc/;../Public/;../../EngineSDK/Inc/Blast/globals/;../../EngineSDK/Inc/Blast/lowlevel/;../../EngineSDK/Inc/Blast/shared/NvFoundation/;../../EngineSDK/Inc/Blast/toolkit/;../../EngineSDK/Inc/Blast/extensions/assetutils/;../../EngineSDK/Inc/Blast/extensions/authoring/;../../EngineSDK/Inc/Blast/extensions/authoringCommon/;../../EngineSDK/Inc/Blast/extensions/serialization/;../../EngineSDK/Inc/Blast/extensions/shaders/;../../EngineSDK/Inc/Blast/extensions/stress/;../../EngineSDK/Inc/Nvidia_HBAO/include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;DirectXTK.lib;GFSDK_ShadowLib_DX11.win64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../EngineSDK/Lib/;../../EngineSDK/Lib/Nvidia/HBAO/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PreBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call Copy_MapTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ImGuizmo\GraphEditor.h" />
+    <ClInclude Include="..\ImGuizmo\ImApp.h" />
+    <ClInclude Include="..\ImGuizmo\ImCurveEdit.h" />
+    <ClInclude Include="..\ImGuizmo\ImGradient.h" />
+    <ClInclude Include="..\ImGuizmo\ImGuizmo.h" />
+    <ClInclude Include="..\ImGuizmo\ImSequencer.h" />
+    <ClInclude Include="..\ImGuizmo\ImZoomSlider.h" />
+    <ClInclude Include="..\Public\BackGround.h" />
+    <ClInclude Include="..\Public\BackGround_Card.h" />
+    <ClInclude Include="..\Public\BackGround_Moon.h" />
+    <ClInclude Include="..\Public\Body_Player.h" />
+    <ClInclude Include="..\Public\CutSceneCamera.h" />
+    <ClInclude Include="..\Public\Decal.h" />
+    <ClInclude Include="..\public\Cloud.h" />
+    <ClInclude Include="..\public\Elevator.h" />
+    <ClInclude Include="..\public\EventTrigger.h" />
+    <ClInclude Include="..\public\FakeWall.h" />
+    <ClInclude Include="..\Public\FireEffect.h" />
+    <ClInclude Include="..\public\Grass.h" />
+    <ClInclude Include="..\Public\Lagoon.h" />
+    <ClInclude Include="..\Public\LandObject.h" />
+    <ClInclude Include="..\Public\MYMapTool_Defines.h" />
+    <ClInclude Include="..\Public\Default_Camera.h" />
+    <ClInclude Include="..\Public\imconfig.h" />
+    <ClInclude Include="..\Public\imgui.h" />
+    <ClInclude Include="..\Public\imgui_impl_dx11.h" />
+    <ClInclude Include="..\Public\imgui_impl_win32.h" />
+    <ClInclude Include="..\Public\imgui_internal.h" />
+    <ClInclude Include="..\Public\Imgui_Manager.h" />
+    <ClInclude Include="..\Public\imstb_rectpack.h" />
+    <ClInclude Include="..\Public\imstb_textedit.h" />
+    <ClInclude Include="..\Public\imstb_truetype.h" />
+    <ClInclude Include="..\Public\Level_GamePlay.h" />
+    <ClInclude Include="..\Public\Level_Loading.h" />
+    <ClInclude Include="..\Public\Level_Logo.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\Public\MainApp.h" />
+    <ClInclude Include="..\Public\Monster.h" />
+    <ClInclude Include="..\Public\NaviMgr.h" />
+    <ClInclude Include="..\Public\PartObject.h" />
+    <ClInclude Include="..\Public\Player.h" />
+    <ClInclude Include="..\public\SideViewCamera.h" />
+    <ClInclude Include="..\Public\Sky.h" />
+    <ClInclude Include="..\Public\Terrain.h" />
+    <ClInclude Include="..\public\ThirdPersonCamera.h" />
+    <ClInclude Include="..\Public\ToolObj.h" />
+    <ClInclude Include="..\Public\ToolObj_Manager.h" />
+    <ClInclude Include="..\Public\TransitionCamera.h" />
+    <ClInclude Include="..\Public\Trap.h" />
+    <ClInclude Include="..\Public\TreasureChest.h" />
+    <ClInclude Include="..\Public\Tree.h" />
+    <ClInclude Include="..\Public\TutorialMapBridge.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ImGuizmo\GraphEditor.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImCurveEdit.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImGradient.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImGuizmo.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImSequencer.cpp" />
+    <ClCompile Include="..\ImGuizmo\main.cpp" />
+    <ClCompile Include="..\Private\BackGround.cpp" />
+    <ClCompile Include="..\Private\BackGround_Card.cpp" />
+    <ClCompile Include="..\Private\BackGround_Moon.cpp" />
+    <ClCompile Include="..\Private\Body_Player.cpp" />
+    <ClCompile Include="..\Private\CutSceneCamera.cpp" />
+    <ClCompile Include="..\Private\Decal.cpp" />
+    <ClCompile Include="..\private\Cloud.cpp" />
+    <ClCompile Include="..\Private\Default_Camera.cpp" />
+    <ClCompile Include="..\private\Elevator.cpp" />
+    <ClCompile Include="..\private\EventTrigger.cpp" />
+    <ClCompile Include="..\private\FakeWall.cpp" />
+    <ClCompile Include="..\Private\FireEffect.cpp" />
+    <ClCompile Include="..\Private\Grass.cpp" />
+    <ClCompile Include="..\Private\imgui.cpp" />
+    <ClCompile Include="..\Private\imgui_demo.cpp" />
+    <ClCompile Include="..\Private\imgui_draw.cpp" />
+    <ClCompile Include="..\Private\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Private\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Private\Imgui_Manager.cpp" />
+    <ClCompile Include="..\Private\imgui_tables.cpp" />
+    <ClCompile Include="..\Private\imgui_widgets.cpp" />
+    <ClCompile Include="..\Private\Lagoon.cpp" />
+    <ClCompile Include="..\Private\LandObject.cpp" />
+    <ClCompile Include="..\Private\Level_GamePlay.cpp" />
+    <ClCompile Include="..\Private\Level_Loading.cpp" />
+    <ClCompile Include="..\Private\Level_Logo.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\Private\MainApp.cpp" />
+    <ClCompile Include="..\Private\Monster.cpp" />
+    <ClCompile Include="..\Private\NaviMgr.cpp" />
+    <ClCompile Include="..\Private\PartObject.cpp" />
+    <ClCompile Include="..\Private\Player.cpp" />
+    <ClCompile Include="..\private\SideViewCamera.cpp" />
+    <ClCompile Include="..\Private\Sky.cpp" />
+    <ClCompile Include="..\Private\Terrain.cpp" />
+    <ClCompile Include="..\private\ThirdPersonCamera.cpp" />
+    <ClCompile Include="..\Private\ToolObj.cpp" />
+    <ClCompile Include="..\Private\ToolObj_Manager.cpp" />
+    <ClCompile Include="..\Private\TransitionCamera.cpp" />
+    <ClCompile Include="..\Private\Trap.cpp" />
+    <ClCompile Include="..\Private\TreasureChest.cpp" />
+    <ClCompile Include="..\Private\Tree.cpp" />
+    <ClCompile Include="..\Private\TutorialMapBridge.cpp" />
+    <ClCompile Include="Client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_Cloud.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Sky.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCloud.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Grass.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_MapElement.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxLagoon.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

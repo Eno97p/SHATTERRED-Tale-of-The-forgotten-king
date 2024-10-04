@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B279C80-7359-4D05-8C6C-30BB6C711B21}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Engine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.8.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;__GFSDK_DX11__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Public/;../Public/PhysX/;../Public/Blast/;../Public/Blast/globals/;../Public/Blast/lowlevel/;../Public/Blast/shared/NvFoundation/;../Public/Blast/toolkit/;../Public/Blast/extensions/assetutils/;../Public/Blast/extensions/authoring/;../Public/Blast/extensions/authoringCommon/;../Public/Blast/extensions/serialization/;../Public/Blast/extensions/shaders/;../Public/Blast/extensions/stress/;../Public/Nvidia_HBAO/include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dinput8.lib;dxguid.lib;Effects11d.lib;DirectXTKd.lib;assimp-vc143-mtd.lib;fmod_vc.lib;LowLevel_static_64.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;PhysX_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;PhysXVehicle2_static_64.lib;PVDRuntime_64.lib;SceneQuery_static_64.lib;SimulationController_static_64.lib;NvBlast.lib;NvBlastExtAssetUtils.lib;NvBlastExtAuthoring.lib;NvBlastExtSerialization.lib;NvBlastExtShaders.lib;NvBlastExtStress.lib;NvBlastExtTkSerialization.lib;NvBlastGlobals.lib;NvBlastTk.lib;GFSDK_ShadowLib_DX11.win64.lib;GFSDK_SSAO_D3D11.win64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../ThirdPartyLib/;../ThirdPartyLib/PhysX/Debug/;../ThirdPartyLib/Blast/Debug/;../ThirdPartyLib/Nvidia/HBAO/</AdditionalLibraryDirectories>
+      <StackReserveSize>8388608</StackReserveSize>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call Copy.bat</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <CudaCompile />
+    <CudaCompile>
+      <AdditionalOptions>-allow-unsupported-compiler %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <CodeGeneration>compute_52,sm_52;compute_61,sm_61;compute_75,sm_75;compute_86,sm_86;%(CodeGeneration)</CodeGeneration>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;__GFSDK_DX11__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Public/;../Public/PhysX/;../Public/Blast/;../Public/Blast/globals/;../Public/Blast/lowlevel/;../Public/Blast/shared/NvFoundation/;../Public/Blast/toolkit/;../Public/Blast/extensions/assetutils/;../Public/Blast/extensions/authoring/;../Public/Blast/extensions/authoringCommon/;../Public/Blast/extensions/serialization/;../Public/Blast/extensions/shaders/;../Public/Blast/extensions/stress/;../Public/Nvidia_HBAO/include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dinput8.lib;dxguid.lib;Effects11.lib;DirectXTK.lib;assimp-vc143-mt.lib;fmod_vc.lib;LowLevel_static_64.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;PhysX_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;PhysXVehicle2_static_64.lib;PVDRuntime_64.lib;SceneQuery_static_64.lib;SimulationController_static_64.lib;NvBlast.lib;NvBlastExtAssetUtils.lib;NvBlastExtAuthoring.lib;NvBlastExtSerialization.lib;NvBlastExtShaders.lib;NvBlastExtStress.lib;NvBlastExtTkSerialization.lib;NvBlastGlobals.lib;NvBlastTk.lib;GFSDK_ShadowLib_DX11.win64.lib;GFSDK_SSAO_D3D11.win64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../ThirdPartyLib/;../ThirdPartyLib/PhysX/Release/;../ThirdPartyLib/Blast/Release/;../ThirdPartyLib/Nvidia/HBAO/</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call Copy_Release.bat</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <CudaCompile />
+    <CudaCompile>
+      <AdditionalOptions>-allow-unsupported-compiler %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <CodeGeneration>compute_52,sm_52;compute_61,sm_61;compute_75,sm_75;compute_86,sm_86;%(CodeGeneration)</CodeGeneration>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\private\Animation.cpp" />
+    <ClCompile Include="..\Private\Base.cpp" />
+    <ClCompile Include="..\Private\BaseVehicle.cpp" />
+    <ClCompile Include="..\Private\BehaviorTree.cpp" />
+    <ClCompile Include="..\private\BlastMgr.cpp" />
+    <ClCompile Include="..\private\BlendObject.cpp" />
+    <ClCompile Include="..\private\Bone.cpp" />
+    <ClCompile Include="..\private\Bounding.cpp" />
+    <ClCompile Include="..\private\Bounding_AABB.cpp" />
+    <ClCompile Include="..\Private\Bounding_OBB.cpp" />
+    <ClCompile Include="..\Private\Bounding_Sphere.cpp" />
+    <ClCompile Include="..\Private\CActionNode.cpp" />
+    <ClCompile Include="..\Private\Calculator.cpp" />
+    <ClCompile Include="..\private\Camera.cpp" />
+    <ClCompile Include="..\Private\Cascade.cpp" />
+    <ClCompile Include="..\Private\CCCTFilterCallBack.cpp" />
+    <ClCompile Include="..\private\CCuda.cpp" />
+    <ClCompile Include="..\private\Cell.cpp" />
+    <ClCompile Include="..\private\Channel.cpp" />
+    <ClCompile Include="..\private\CHitReport.cpp" />
+    <ClCompile Include="..\Private\CInverter.cpp" />
+    <ClCompile Include="..\Private\CNode.cpp" />
+    <ClCompile Include="..\Private\Components_Vehicle.cpp" />
+    <ClCompile Include="..\Private\CoolDown_Priority.cpp" />
+    <ClCompile Include="..\private\CProfiler.cpp" />
+    <ClCompile Include="..\private\CProfileScope.cpp" />
+    <ClCompile Include="..\Private\CRenderWorker.cpp" />
+    <ClCompile Include="..\private\CUserErrorCallBack.cpp" />
+    <ClCompile Include="..\private\CWorker.cpp" />
+    <ClCompile Include="..\private\OctTree.cpp" />
+    <ClCompile Include="..\private\Collider.cpp" />
+    <ClCompile Include="..\private\Component.cpp" />
+    <ClCompile Include="..\private\Component_Manager.cpp" />
+    <ClCompile Include="..\Private\ComputeShader_Buffer.cpp" />
+    <ClCompile Include="..\private\ComputeShader_Texture.cpp" />
+    <ClCompile Include="..\private\ConditionNode.cpp" />
+    <ClCompile Include="..\private\CoolDownNode.cpp" />
+    <ClCompile Include="..\private\CPhysX.cpp" />
+    <ClCompile Include="..\Private\CSelector.cpp" />
+    <ClCompile Include="..\Private\CSequence.cpp" />
+    <ClCompile Include="..\private\CSimulationCallBack.cpp" />
+    <ClCompile Include="..\private\CustomFont.cpp" />
+    <ClCompile Include="..\Private\DebugDraw.cpp" />
+    <ClCompile Include="..\Private\EventMgr.cpp" />
+    <ClCompile Include="..\private\Font_Manager.cpp" />
+    <ClCompile Include="..\private\Frustum.cpp" />
+    <ClCompile Include="..\private\GameInstance.cpp" />
+    <ClCompile Include="..\private\GameObject.cpp" />
+    <ClCompile Include="..\Private\Graphic_Device.cpp" />
+    <ClCompile Include="..\Private\Input_Device.cpp" />
+    <ClCompile Include="..\private\Layer.cpp" />
+    <ClCompile Include="..\private\Level.cpp" />
+    <ClCompile Include="..\private\Level_Manager.cpp" />
+    <ClCompile Include="..\private\Light.cpp" />
+    <ClCompile Include="..\private\Light_Manager.cpp" />
+    <ClCompile Include="..\private\Mesh.cpp" />
+    <ClCompile Include="..\private\Model.cpp" />
+    <ClCompile Include="..\private\Navigation.cpp" />
+    <ClCompile Include="..\private\Object_Manager.cpp" />
+    <ClCompile Include="..\private\PhysXActorVehicle.cpp" />
+    <ClCompile Include="..\Private\PhysXComponent.cpp" />
+    <ClCompile Include="..\Private\PhysXComponent_Character.cpp" />
+    <ClCompile Include="..\Private\PhysXComponent_HeightField.cpp" />
+    <ClCompile Include="..\Private\PhysXComponent_static.cpp" />
+    <ClCompile Include="..\Private\PhysXComponent_Vehicle.cpp" />
+    <ClCompile Include="..\private\PhysXParticle.cpp" />
+    <ClCompile Include="..\private\Picking.cpp" />
+    <ClCompile Include="..\private\PipeLine.cpp" />
+    <ClCompile Include="..\private\QuadTree.cpp" />
+    <ClCompile Include="..\private\Renderer.cpp" />
+    <ClCompile Include="..\private\RenderTarget.cpp" />
+    <ClCompile Include="..\private\Shader.cpp" />
+    <ClCompile Include="..\Private\SoundMgr.cpp" />
+    <ClCompile Include="..\private\Target_Manager.cpp" />
+    <ClCompile Include="..\private\Texture.cpp" />
+    <ClCompile Include="..\Private\Texture3D.cpp" />
+    <ClCompile Include="..\Private\Timer.cpp" />
+    <ClCompile Include="..\Private\Timer_Manager.cpp" />
+    <ClCompile Include="..\private\Transform.cpp" />
+    <ClCompile Include="..\private\UISorter.cpp" />
+    <ClCompile Include="..\Private\VehicleDefault.cpp" />
+    <ClCompile Include="..\private\VIBuffer.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Cell.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Cube.cpp" />
+    <ClCompile Include="..\private\VIBuffer_Instance.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Instance_Mesh.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Instance_Point.cpp" />
+    <ClCompile Include="..\private\VIBuffer_Instance_Rect.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Lightning.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Line.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_PhysXBuffer.cpp" />
+    <ClCompile Include="..\private\VIBuffer_Rect.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_SwordTrail.cpp" />
+    <ClCompile Include="..\Private\VIBuffer_Terrain.cpp" />
+    <ClCompile Include="..\private\VIBuffer_Trail.cpp" />
+    <ClCompile Include="..\Public\Engine_Struct.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\public\Animation.h" />
+    <ClInclude Include="..\Public\Base.h" />
+    <ClInclude Include="..\Public\BaseVehicle.h" />
+    <ClInclude Include="..\Public\BehaviorTree.h" />
+    <ClInclude Include="..\public\BlastMgr.h" />
+    <ClInclude Include="..\public\BlendObject.h" />
+    <ClInclude Include="..\public\Bone.h" />
+    <ClInclude Include="..\public\Bounding.h" />
+    <ClInclude Include="..\public\Bounding_AABB.h" />
+    <ClInclude Include="..\Public\Bounding_OBB.h" />
+    <ClInclude Include="..\Public\Bounding_Sphere.h" />
+    <ClInclude Include="..\Public\CActionNode.h" />
+    <ClInclude Include="..\Public\Calculator.h" />
+    <ClInclude Include="..\public\Camera.h" />
+    <ClInclude Include="..\Public\Cascade.h" />
+    <ClInclude Include="..\Public\CCCTFilterCallBack.h" />
+    <ClInclude Include="..\public\CCuda.h" />
+    <ClInclude Include="..\public\Cell.h" />
+    <ClInclude Include="..\public\Channel.h" />
+    <ClInclude Include="..\public\CHitReport.h" />
+    <ClInclude Include="..\Public\CInverter.h" />
+    <ClInclude Include="..\Public\CNode.h" />
+    <ClInclude Include="..\public\Collider.h" />
+    <ClInclude Include="..\public\Component.h" />
+    <ClInclude Include="..\Public\Components_Vehicle.h" />
+    <ClInclude Include="..\public\Component_Manager.h" />
+    <ClInclude Include="..\Public\ComputeShader_Buffer.h" />
+    <ClInclude Include="..\public\ComputeShader_Texture.h" />
+    <ClInclude Include="..\public\ConditionNode.h" />
+    <ClInclude Include="..\public\CoolDownNode.h" />
+    <ClInclude Include="..\Public\CoolDown_Priority.h" />
+    <ClInclude Include="..\public\CPhysX.h" />
+    <ClInclude Include="..\public\CProfiler.h" />
+    <ClInclude Include="..\public\CProfileScope.h" />
+    <ClInclude Include="..\Public\CRenderWorker.h" />
+    <ClInclude Include="..\Public\CSelector.h" />
+    <ClInclude Include="..\Public\CSequence.h" />
+    <ClInclude Include="..\public\CSimulationCallBack.h" />
+    <ClInclude Include="..\Public\CudaDefines.h" />
+    <ClInclude Include="..\public\CUserErrorCallBack.h" />
+    <ClInclude Include="..\public\CustomFont.h" />
+    <ClInclude Include="..\public\CWorker.h" />
+    <ClInclude Include="..\Public\DebugDraw.h" />
+    <ClInclude Include="..\Public\Engine_Defines.h" />
+    <ClInclude Include="..\Public\Engine_Function.hpp" />
+    <ClInclude Include="..\Public\Engine_Functor.h" />
+    <ClInclude Include="..\Public\Engine_Macro.h" />
+    <ClInclude Include="..\Public\Engine_Struct.h" />
+    <ClInclude Include="..\Public\Engine_Typedef.h" />
+    <ClInclude Include="..\Public\EventMgr.h" />
+    <ClInclude Include="..\public\Font_Manager.h" />
+    <ClInclude Include="..\public\Frustum.h" />
+    <ClInclude Include="..\public\GameInstance.h" />
+    <ClInclude Include="..\public\GameObject.h" />
+    <ClInclude Include="..\Public\Graphic_Device.h" />
+    <ClInclude Include="..\Public\Input_Device.h" />
+    <ClInclude Include="..\public\Layer.h" />
+    <ClInclude Include="..\public\Level.h" />
+    <ClInclude Include="..\public\Level_Manager.h" />
+    <ClInclude Include="..\public\Light.h" />
+    <ClInclude Include="..\public\Light_Manager.h" />
+    <ClInclude Include="..\public\Mesh.h" />
+    <ClInclude Include="..\public\Model.h" />
+    <ClInclude Include="..\public\Navigation.h" />
+    <ClInclude Include="..\public\Object_Manager.h" />
+    <ClInclude Include="..\public\OctTree.h" />
+    <ClInclude Include="..\public\PhysXActorVehicle.h" />
+    <ClInclude Include="..\Public\PhysXComponent.h" />
+    <ClInclude Include="..\Public\PhysXComponent_Character.h" />
+    <ClInclude Include="..\Public\PhysXComponent_HeightField.h" />
+    <ClInclude Include="..\Public\PhysXComponent_static.h" />
+    <ClInclude Include="..\Public\PhysXComponent_Vehicle.h" />
+    <ClInclude Include="..\public\PhysXParticle.h" />
+    <ClInclude Include="..\public\Picking.h" />
+    <ClInclude Include="..\public\PipeLine.h" />
+    <ClInclude Include="..\public\QuadTree.h" />
+    <ClInclude Include="..\public\Renderer.h" />
+    <ClInclude Include="..\public\RenderTarget.h" />
+    <ClInclude Include="..\public\Shader.h" />
+    <ClInclude Include="..\Public\SoundMgr.h" />
+    <ClInclude Include="..\public\Target_Manager.h" />
+    <ClInclude Include="..\Public\TestCuda.cuh" />
+    <ClInclude Include="..\public\Texture.h" />
+    <ClInclude Include="..\Public\Texture3D.h" />
+    <ClInclude Include="..\Public\Timer.h" />
+    <ClInclude Include="..\Public\Timer_Manager.h" />
+    <ClInclude Include="..\public\Transform.h" />
+    <ClInclude Include="..\public\UISorter.h" />
+    <ClInclude Include="..\Public\VehicleDefault.h" />
+    <ClInclude Include="..\public\VIBuffer.h" />
+    <ClInclude Include="..\Public\VIBuffer_Cell.h" />
+    <ClInclude Include="..\Public\VIBuffer_Cube.h" />
+    <ClInclude Include="..\public\VIBuffer_Instance.h" />
+    <ClInclude Include="..\Public\VIBuffer_Instance_Mesh.h" />
+    <ClInclude Include="..\Public\VIBuffer_Instance_Point.h" />
+    <ClInclude Include="..\public\VIBuffer_Instance_Rect.h" />
+    <ClInclude Include="..\Public\VIBuffer_Lightning.h" />
+    <ClInclude Include="..\Public\VIBuffer_Line.h" />
+    <ClInclude Include="..\Public\VIBuffer_PhysXBuffer.h" />
+    <ClInclude Include="..\public\VIBuffer_Rect.h" />
+    <ClInclude Include="..\Public\VIBuffer_SwordTrail.h" />
+    <ClInclude Include="..\Public\VIBuffer_Terrain.h" />
+    <ClInclude Include="..\public\VIBuffer_Trail.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Client\Default\Shader_HDR.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_Blur.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_Calculate.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_Float4.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_HZB.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_SampleHZB.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_Spread.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Cell.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deferred.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Instance_Mesh_Compute.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSMain</EntryPointName>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_PhysX.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\ShaderFiles\Engine_Shader_Defines.hlsli" />
+    <None Include="..\Bin\ShaderFiles\ShaderFunctor.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="TestCuda.cu" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.8.targets" />
+  </ImportGroup>
+</Project>

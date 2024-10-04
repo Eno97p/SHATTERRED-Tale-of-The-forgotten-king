@@ -1,0 +1,7 @@
+(0) RootNode
+(1) SmashPilar.ao
+(2) B_smash_root
+(3) B_smash_01
+(4) B_smash_01_end
+(5) B_smash_01_end_end
+(6) SmashPilar.mo

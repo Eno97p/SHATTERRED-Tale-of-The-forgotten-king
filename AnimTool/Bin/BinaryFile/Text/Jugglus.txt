@@ -1,0 +1,12 @@
+(0) SKM_Juggulus.ao|Anim_Jug_FlyHit1
+(1) SKM_Juggulus.ao|Anim_Jug_FlyHit2
+(2) SKM_Juggulus.ao|Anim_Jugulus_HitPhase2
+(3) SKM_Juggulus.ao|Anim_Jugulus_RigAnim
+(4) SKM_Juggulus.ao|Anim_Jugulus_SpawnHammer
+(5) SKM_Juggulus.ao|Jug_Death
+(6) SKM_Juggulus.ao|Jug_Fly
+(7) SKM_Juggulus.ao|Jug_Idle1
+(8) SKM_Juggulus.ao|Jug_Idle2
+(9) SKM_Juggulus.ao|Jug_Pattern1
+(10) SKM_Juggulus.ao|Jug_Pattern3
+(11) SKM_Juggulus.ao|Jug_WalkGround

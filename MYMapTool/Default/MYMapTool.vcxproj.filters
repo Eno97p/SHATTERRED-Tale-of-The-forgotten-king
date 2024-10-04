@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Sky.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Grass.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_MapElement.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCloud.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\ComputeShader_Cloud.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxLagoon.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Imgui_Manager.cpp">
+      <Filter>00. IMGUI\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGuizmo\ImGradient.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_demo.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_draw.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_dx11.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_win32.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_tables.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_widgets.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGuizmo\ImGuizmo.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGuizmo\ImSequencer.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NaviMgr.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGuizmo\GraphEditor.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGuizmo\main.cpp">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ToolObj.cpp">
+      <Filter>02. GameObjects\00. ToolObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ToolObj_Manager.cpp">
+      <Filter>02. GameObjects\00. ToolObj\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>02. GameObjects\01. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02. GameObjects\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02. GameObjects\03. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01. Levels\02. GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01. Levels\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01. Levels\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01. Levels\00. Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02. GameObjects\04. Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Default_Camera.cpp">
+      <Filter>02. GameObjects\99. Camera\00. Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutSceneCamera.cpp">
+      <Filter>02. GameObjects\99. Camera\02. DollyTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Player.cpp">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LandObject.cpp">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PartObject.cpp">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ThirdPersonCamera.cpp">
+      <Filter>02. GameObjects\99. Camera\01. ThirdPerson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FakeWall.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EventTrigger.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Elevator.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SideViewCamera.cpp">
+      <Filter>02. GameObjects\99. Camera\03. SideView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FireEffect.cpp">
+      <Filter>02. GameObjects\05. Active_Elements\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TransitionCamera.cpp">
+      <Filter>02. GameObjects\99. Camera\04. Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Trap.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TutorialMapBridge.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TreasureChest.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Decal.cpp">
+      <Filter>02. GameObjects\05. Active_Elements\Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Grass.cpp">
+      <Filter>02. GameObjects\07. Vegetation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tree.cpp">
+      <Filter>02. GameObjects\07. Vegetation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Cloud.cpp">
+      <Filter>02. GameObjects\08. Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Card.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lagoon.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Moon.cpp">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\ImApp.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imconfig.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\ImCurveEdit.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\ImGradient.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_dx11.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_win32.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_internal.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\ImGuizmo.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\ImSequencer.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_rectpack.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_textedit.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_truetype.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\ImZoomSlider.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui_Manager.h">
+      <Filter>00. IMGUI\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MYMapTool_Defines.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NaviMgr.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGuizmo\GraphEditor.h">
+      <Filter>00. IMGUI\Ddulgeoji</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ToolObj.h">
+      <Filter>02. GameObjects\00. ToolObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ToolObj_Manager.h">
+      <Filter>02. GameObjects\00. ToolObj\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>02. GameObjects\01. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02. GameObjects\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02. GameObjects\03. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01. Levels\02. GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01. Levels\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01. Levels\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01. Levels\00. Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02. GameObjects\04. Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Default_Camera.h">
+      <Filter>02. GameObjects\99. Camera\00. Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutSceneCamera.h">
+      <Filter>02. GameObjects\99. Camera\02. DollyTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Player.h">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LandObject.h">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PartObject.h">
+      <Filter>02. GameObjects\06. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ThirdPersonCamera.h">
+      <Filter>02. GameObjects\99. Camera\01. ThirdPerson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FakeWall.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EventTrigger.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Elevator.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SideViewCamera.h">
+      <Filter>02. GameObjects\99. Camera\03. SideView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FireEffect.h">
+      <Filter>02. GameObjects\05. Active_Elements\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TransitionCamera.h">
+      <Filter>02. GameObjects\99. Camera\04. Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Trap.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TutorialMapBridge.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TreasureChest.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Decal.h">
+      <Filter>02. GameObjects\05. Active_Elements\Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Grass.h">
+      <Filter>02. GameObjects\07. Vegetation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tree.h">
+      <Filter>02. GameObjects\07. Vegetation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Cloud.h">
+      <Filter>02. GameObjects\08. Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Card.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lagoon.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Moon.h">
+      <Filter>02. GameObjects\05. Active_Elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{aca5501e-538f-4643-a055-43f4f676da9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels">
+      <UniqueIdentifier>{02a858ce-2f8c-4efd-bfb6-4a35f6f949e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects">
+      <UniqueIdentifier>{0abddcdb-c7f9-4d25-a01a-efcda1314a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. IMGUI">
+      <UniqueIdentifier>{02d366e9-6106-4910-970e-21845b81f0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. IMGUI\Ddulgeoji">
+      <UniqueIdentifier>{b5651cfb-9873-4362-a6a4-0e3ce5054f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{2ced36a7-1584-4cef-bad4-1c0f5e31a906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Headers">
+      <UniqueIdentifier>{17747d85-8f19-402f-89af-71b322337230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Camera">
+      <UniqueIdentifier>{5653c981-66b5-4908-a754-ce934a11d164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\00. ToolObj">
+      <UniqueIdentifier>{910a8b2e-78bf-480a-bfd7-f2d5f3afb026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\00. ToolObj\Manager">
+      <UniqueIdentifier>{88dceffd-334f-40ef-8239-d9dab490357a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\01. BackGround">
+      <UniqueIdentifier>{cc520c13-1ac0-43cc-86ac-a8f403acc6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\02. Monster">
+      <UniqueIdentifier>{427466aa-51ca-4d4f-b7b5-8c1b6aefe0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\03. Terrain">
+      <UniqueIdentifier>{473a5655-fd99-4918-962e-70bdca8584f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{4a3cb718-0c08-4732-bc04-b838390590c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\02. GamePlay">
+      <UniqueIdentifier>{5b91050c-8b81-49ec-8784-2338e9b76d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\00. Loading">
+      <UniqueIdentifier>{dff2d627-da95-4417-9e6c-34e1bdb4a243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\00. Loading\Loader">
+      <UniqueIdentifier>{e6b33678-29bc-4b92-968f-1f2285e27381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\01. Logo">
+      <UniqueIdentifier>{8e35df41-1376-448a-925c-21eef790a6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. IMGUI\00. Manager">
+      <UniqueIdentifier>{81ddfc0f-d588-4864-9804-b6476d458101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\04. Sky">
+      <UniqueIdentifier>{8f434eb5-172f-43e2-9c4b-721d048744ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Camera\00. Free">
+      <UniqueIdentifier>{70a38a79-714a-4c71-91a2-57e0f6519d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Camera\02. DollyTrack">
+      <UniqueIdentifier>{d9bed8df-e5b4-46ab-9a7d-9d1053e534ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Camera\01. ThirdPerson">
+      <UniqueIdentifier>{dcf0a8d5-bb5a-433a-8bd4-3f47d5eeeb15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. Active_Elements">
+      <UniqueIdentifier>{ae510232-16fd-4528-886f-9cfaa8d0ec33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Player">
+      <UniqueIdentifier>{b764be88-de7b-415c-99ba-2bec26d5db62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Camera\03. SideView">
+      <UniqueIdentifier>{bd188ce7-611d-45b7-b35a-437ea65077d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. Active_Elements\Fire">
+      <UniqueIdentifier>{ba3ff74f-5b5e-43ac-b7cc-c9d6c437fbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Camera\04. Transition">
+      <UniqueIdentifier>{32818743-d767-4700-97cc-5f382f3d220b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. Active_Elements\Decal">
+      <UniqueIdentifier>{a3f4cf27-9475-420d-827a-634af1b70efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\07. Vegetation">
+      <UniqueIdentifier>{db78c6b5-b7e2-41c0-8cf8-653de0547703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\08. Cloud">
+      <UniqueIdentifier>{ac35b88f-8b8b-4013-aa75-d336ba50a7e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
