@@ -1,5 +1,6 @@
-# [ Shatterred : Tale of The forgotten king ] 모작
-### 3D_Project
+# [ Shatterred : Tale of The forgotten king ] 모작 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23090909&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false)](https://hits.seeyoufarm.com)
+
+### 3D_Project(DirectX11 API)
 ---
 ##### 개발 기간 : 2개월 
 ##### 개발 인원 : 5명
@@ -30,3 +31,5 @@
   (해당 zip파일 압축해제 후 나온 Textures폴더 Engine - Bin 폴더안에 넣기)
 - [DLL Download](https://drive.google.com/file/d/12F-bKFRm-V5EKHAbsRtfYnpnJxlRCBMH/view?usp=sharing)
   (해당 zip파일 압축해제 후 나온 DLL폴더 Engine 폴더안에 넣기)
+
+  
