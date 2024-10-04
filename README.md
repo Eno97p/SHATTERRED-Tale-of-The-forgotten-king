@@ -1,4 +1,4 @@
-# [ Shatterred : Tale of The forgotten king ] 모작 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23090909&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false)](https://hits.seeyoufarm.com)
+# [ Shatterred : Tale of The forgotten king ] 모작 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJusin142%2FSHATTERRED-Tale-of-The-forgotten-king&count_bg=%23090909&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ### 3D_Project(DirectX11 API)
 ---
