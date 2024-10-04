@@ -20,3 +20,5 @@ Shatterred : Tale of The forgotten king  모작
   (해당 zip파일 압축해제 후 나온 Resources폴더 MYMapTool - Bin 폴더안에 넣기)
 - Eninge Resources 다운로드 경로    : https://drive.google.com/file/d/19Pt1_ZZeDUxfWEk3EdgQbWU1jpXkhg5k/view?usp=sharing
   (해당 zip파일 압축해제 후 나온 Textures폴더 Engine - Bin 폴더안에 넣기)
+- DLL 다운로드 경로 : https://drive.google.com/file/d/12F-bKFRm-V5EKHAbsRtfYnpnJxlRCBMH/view?usp=sharing
+  (해당 zip파일 압축해제 후 나온 DLL폴더 Engine 폴더안에 넣기)
