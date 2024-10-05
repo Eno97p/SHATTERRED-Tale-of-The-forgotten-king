@@ -10,8 +10,8 @@
 ##### 개발 인원 : 5명
 - [박은호](https://github.com/Eno97p) - lark199787@gmail.com
 - [박세원](https://github.com/ParkSeWon1997) - parksewon123@gmail.com
-- [이경로](https://github.com/dlrudfh) -
-- [김보민](https://github.com/bomingming) -
+- [이경로](https://github.com/dlrudfh) - rudfh5256@naver.com
+- [김보민](https://github.com/bomingming) - byj060362@gmail.com 
 - [이민영](https://github.com/probablymayb) - proveprove@naver.com
 
 
