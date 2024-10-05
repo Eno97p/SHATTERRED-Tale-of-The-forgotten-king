@@ -12,7 +12,7 @@
 - [박세원](https://github.com/ParkSeWon1997) - parksewon123@gmail.com
 - [이경로](https://github.com/dlrudfh) -
 - [김보민](https://github.com/bomingming) -
-- [이민영](https://github.com/probablymayb) - 
+- [이민영](https://github.com/probablymayb) - proveprove@naver.com
 
 
 
